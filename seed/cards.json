@@ -1,0 +1,1725 @@
+[
+ {
+  "id": "s_0b19486894bc",
+  "key": "autoscout24:bc634a72-3606-4df3-984f-64c8f1b030ba",
+  "fingerprint": "alfa romeo alfetta|3000|nibbiano|1984|300000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/alfa-romeo-alfetta-2-0i-quadrifoglio-oro-benzina-cat_ma6mo1609-bc634a72-3606-4df3-984f-64c8f1b030ba",
+  "category": "auto",
+  "name": "Alfa Romeo Alfetta",
+  "version": "2.0i Quadrifoglio Oro",
+  "facts": {
+   "price": 3000,
+   "priceText": "€ 3.000",
+   "negotiable": false,
+   "year": 1984,
+   "km": 300000,
+   "power": "95 kW",
+   "displacement": "1962 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": null,
+   "city": "Nibbiano ",
+   "zip": "29031",
+   "country": "IT",
+   "lat": 44.90611,
+   "lon": 9.32939,
+   "sellerType": "Privato",
+   "listedAt": "2026-11-07T15:38:29.621Z"
+  },
+  "sellerText": "Alfetta da restuaro buona base non rovinata o corrosa da ruggine tranne leggermente parte posteriore vano baule \nVetri e fari con identicar tranne il parabrezza ant\nPronta da passaggio \n3500,00 leggermente trattabili \n[recapito omesso] \nNo perditempo \nMotore fermato funzionante, comunque libero .\nNon può circolare su strada",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/bc634a72-3606-4df3-984f-64c8f1b030ba_0ada2b12-73c4-4fe2-820c-8a33c57b8d32.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/bc634a72-3606-4df3-984f-64c8f1b030ba_a7c6409c-f4ae-4e70-b7c7-ea3cd27eb965.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/bc634a72-3606-4df3-984f-64c8f1b030ba_ea3b56c6-9fb9-4164-a6ee-f339b107a796.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/bc634a72-3606-4df3-984f-64c8f1b030ba_7f0e57d7-a48c-4b21-8957-d14c1025f2b1.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/bc634a72-3606-4df3-984f-64c8f1b030ba_20abc241-8576-4262-a356-bc74b0abbd5f.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/bc634a72-3606-4df3-984f-64c8f1b030ba_99ce3af7-36d3-4f23-9b75-7fecb291594e.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "restauro",
+  "scout": {
+   "title": "La berlina transaxle da rimettere in strada, una fase alla volta",
+   "why": "L'Alfetta è il tuo punto fermo; questa è la berlina, non la GT, ma lo schema meccanico è quello. È il tipo di base che ti chiede proprio i lavori che dici di saper fare: carrozzeria, interni, smontaggi.",
+   "project": "Un recupero lungo: prima capire la ruggine (il venditore la dichiara limitata alla zona del baule), poi rimetterla in condizione di circolare, infine gli interni. Alla fine, una berlina anni Ottanta per strade secondarie, con il bialbero davanti e il cambio dietro.",
+   "doubt": "300.000 km e un «non può circolare su strada» senza spiegazioni: può essere una questione di documenti o di meccanica, e cambia tutto. Nel testo il venditore scrive 3.500 € mentre il campo prezzo dice 3.000.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:16:41.039Z",
+  "trailId": "alfetta",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:16:35.075Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:16:35.075Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_bf894c07be23",
+  "key": "autoscout24:f987d547-f54e-4151-82cf-dd5cf7c690de",
+  "fingerprint": "volvo 480|7500|fano|1990|107000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/volvo-480-1-7-es-cat-benzina-cat_ma73mo2070-f987d547-f54e-4151-82cf-dd5cf7c690de",
+  "category": "auto",
+  "name": "Volvo 480",
+  "version": "1.7 ES cat.",
+  "facts": {
+   "price": 7500,
+   "priceText": "€ 7.500",
+   "negotiable": true,
+   "year": 1990,
+   "km": 107000,
+   "power": "75 kW",
+   "displacement": "1721 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": null,
+   "city": "Fano",
+   "zip": "61032",
+   "country": "IT",
+   "lat": 43.84487,
+   "lon": 13.01688,
+   "sellerType": "Privato",
+   "listedAt": "2026-07-28T08:22:31.065Z"
+  },
+  "sellerText": "ASI TARGA ORO. AUTO TENUTA IN MANIERA MANIACALE. DOCUMENTAZIONE FOTOGRAFICA CARROZZERIA E MECCANICA A DISPOSIZIONE DI VERAMENTE INTERESSATI. LIBRETTO USO E MANUTENZIONE ORIGINALE E AGGIORNATO. 3 CHIAVI. PRONTA SIA PER USO GIORNALIERO CHE PER RADUNI O CONCORSI. NON VENDO PER NECESSITÀ PER CUI AFFARISTI SONO PREGATI DI ASTENERSI DA RICHIESTE. POSSIBILITÀ DI CONTATTO CON IL MECCANICO CHE LA SEGUE DA ANNI. VISIONE E PROVA PREVIO APPUNTAMENTO DISPONIBILE A SCAMBIO CON CABRIO PARI REQUISITI",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/f987d547-f54e-4151-82cf-dd5cf7c690de_aed7ca70-3641-4ab5-bb7e-23309ad835c8.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f987d547-f54e-4151-82cf-dd5cf7c690de_d192b010-aa35-4333-af4d-67483f7e6cdb.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "La 480 già a posto: da guidare, non da rifare",
+   "why": "Hai detto che non ti interessano solo le auto da restaurare, ma anche basi sane da conservare. Questa 480 viene presentata come tenuta con molta cura: te la mostro come termine di paragone «alto» per un modello che senti tuo.",
+   "project": "Niente cantiere: una 480 da usare nei fine settimana e da migliorare nei dettagli. Il piacere starebbe nel guidarla e nel mantenerla al livello dichiarato.",
+   "doubt": "L'annuncio ha solo due foto: carrozzeria, meccanica e documentazione sono dichiarate ma non mostrate. E con così poco da fare resta da capire se ti divertirebbe davvero.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:16:47.095Z",
+  "trailId": "volvo480",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:16:43.284Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:16:43.284Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_55802627879a",
+  "key": "autoscout24:b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d",
+  "fingerprint": "alfa romeo 75|15000|roma|1987|69000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/alfa-romeo-75-75-1-8t-america-benzina-rosso-cat_ma6mo1606-b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d",
+  "category": "auto",
+  "name": "Alfa Romeo 75",
+  "version": "75 1.8t America",
+  "facts": {
+   "price": 15000,
+   "priceText": "€ 15.000",
+   "negotiable": false,
+   "year": 1987,
+   "km": 69000,
+   "power": "114 kW",
+   "displacement": "1779 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": "Rosso",
+   "city": "Roma - RM",
+   "zip": "00139",
+   "country": "IT",
+   "lat": 41.98001,
+   "lon": 12.56056,
+   "sellerType": "Concessionario",
+   "listedAt": "2026-08-05T13:16:01.664Z"
+  },
+  "sellerText": "Per veri intenditori, grandi collezionisti ed estimatori della meccanica pura di Arese, proponiamo un pezzo di straordinaria e rarissima autenticità: un’Alfa Romeo 75 1.8 Turbo Benzina del 1987 (Prima Serie), l'ultima vera icona sportiva a trazione posteriore con schema Transaxle.Questo modello custodisce la celebre storia produttiva del 1987, anno in cui la linea delle Turbo di serie venne temporaneamente sospesa in fabbrica per proteggere e permettere l'assemblaggio in tempi record dei 500 esemplari della versione \"Evoluzione\" necessari all'omologazione in pista nel Gruppo A.Una Storia di Conservazione Incredibile (Capsula del Tempo):Estratto cronologico alla mano, la storia di questo esemplare è limpidissima e certifica un'usura minima:Immatricolata nel 1987 e venduta al primo proprietario nel 1988.Passata al secondo proprietario nel 1994, il quale l'ha utilizzata pochissimo fino al 2004, anno in cui ha deciso di rottamarla su suolo privato, custodendola gelosamente al coperto e al riparo dalle intemperie.L'auto ha viaggiato su strada solo dal 1988 al 2004, accumulando appena 67.000 km totali e originali. È rimasta poi ferma, protetta e \"congelata nel tempo\" per oltre vent'anni, fino a circa tre anni fa, quando è stata da me rilevata (completa di tutta la sua documentazione d'origine).Conserva il fascino unico della sua targa originale Napoli.Lavori di Ripristino Totale (Ultimi 3 Anni):Dopo il lungo letargo, la vettura è stata sottoposta a un completo restauro conservativo e meccanico per assicurarne la perfetta efficienza stradale, mantenendo la totale originalità dei componenti:Carrozzeria: Finiture di verniciatura professionali eseguite da carrozziere di fiducia per eliminare i minimi segni del tempo.Meccanica Azzerata: Eseguito tagliando completo, sostituzione candele, kit frizione nuovo completo di spingidisco, dischi freno e pasticche nuovi, e ogni altro elemento necessario a renderla \"chiavi in mano\".La macchina si trova in fase di ultimazione burocratica per il riallineamento della documentazione ed è pronta per essere volturata. Meccanica d'origine eccezionale con un chilometraggio introvabile, interni sportivi d'epoca eccezionalmente preservati e scocca totalmente sana. Un investimento sicuro dal valore internazionale.",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_4648845d-0f76-4117-9633-40859f07ae86.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_841eaa8a-19b8-44e0-9eb5-18b1736bf5e5.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_7e1bb8ae-896c-4832-b0b6-f321dcd26432.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_e605a290-0f73-47f8-9908-2e48e9242af5.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_c93bc8df-2eb1-4261-bd5e-e11256cb52d6.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_6703eb60-295e-44ac-872f-a932d1125f25.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_549ba166-59f5-4276-b86a-5c8284dedcd5.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_62ee52af-f7b2-4615-9bae-b90f77714820.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_157fa3d6-1fbd-4a2f-9b89-e5729843ef4e.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_d8f34a7c-44c2-4edd-9623-3e6b38aac147.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_8841cc46-a03c-436f-a9bd-4a4e435e40f9.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/b2ecaa7e-4bbf-4e57-9b24-f5fd0eedc68d_7bcb2e4b-bc10-486b-b3ab-89d73fd60521.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "capire",
+  "scout": {
+   "title": "La 75 Turbo rimasta ferma vent'anni",
+   "why": "È l'erede diretta dell'Alfetta: stesso schema transaxle in una berlina a cuneo. Te la mostro per mettere alla prova l'ipotesi che ti piaccia l'architettura, non solo la GT.",
+   "project": "Se la conservazione è quella raccontata, più una rimessa in strada che un restauro: rivedere ciò che invecchia da fermo e poi usarla sulle statali. Il turbo, però, è tra i lavori che tu stesso affideresti a un professionista.",
+   "doubt": "Il venditore scrive che nel 2004 fu «rottamata su suolo privato» e poi custodita: lo stato dei documenti va chiarito prima di ogni altra cosa. È l'annuncio più caro tra quelli che ti mostro e il testo ha un tono molto promozionale.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:16:52.707Z",
+  "trailId": "transaxle-alfa",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:16:48.995Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:16:48.995Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_5a46b5ada510",
+  "key": "autoscout24:d0c2eded-56e5-4b67-8381-40529c064d04",
+  "fingerprint": "bmw 318|4500|brescia|1996|250000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/bmw-318-serie-3-e36-cabrio-318i-cabrio-c-hardtop-gpl-blu-azzurro-cat_ma13mo1640-d0c2eded-56e5-4b67-8381-40529c064d04",
+  "category": "auto",
+  "name": "BMW 318",
+  "version": "Serie 3 E36 Cabrio 318i Cabrio c/hardtop",
+  "facts": {
+   "price": 4500,
+   "priceText": "€ 4.500",
+   "negotiable": false,
+   "year": 1996,
+   "km": 250000,
+   "power": "85 kW",
+   "displacement": "1796 cm³",
+   "fuel": "GPL",
+   "gearbox": "Manuale",
+   "color": "Blu/Azzurro",
+   "city": "Brescia",
+   "zip": "25100",
+   "country": "IT",
+   "lat": 42.78504257100008,
+   "lon": 12.078972410000066,
+   "sellerType": "Privato",
+   "listedAt": "2026-08-13T11:40:23.094Z"
+  },
+  "sellerText": "Bmw 318i del 1996 GPL ISCRITTA ASI e con HARD TOP. Funzionante ma ha bisogno di una \"rinfrescata\" generale. Ha 30 anni e non è stata restaurata, quindi nulla è perfetto. Sono state cambiati già una serie di pezzi (4 ammortizzatori, termostato, batteria, polmone gpl e filtro, poi sicuramente dimenticherò altro).\nDa rivedere:\n-capote funziona solo in manuale e ci sono le guarnizioni da sostituire\n-vernice esterna bella ma con segni\n-sedili anteriori da rivestire\n-bombola gpl da sostituire nel 2028",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/d0c2eded-56e5-4b67-8381-40529c064d04_48746672-e4f2-4c80-80cc-b8df2a328484.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/d0c2eded-56e5-4b67-8381-40529c064d04_b69403d4-2e31-44c3-98ac-e4be6b634a87.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/d0c2eded-56e5-4b67-8381-40529c064d04_ba58d7a5-dfd8-4a4b-99b4-b4938f9fd6e6.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "fasi",
+  "scout": {
+   "title": "La cabrio da interpretare: capote, sedili e una rinfrescata",
+   "why": "È quasi alla lettera l'esempio che avevi fatto: una BMW cabrio anni Novanta con cose da sistemare. Qui i difetti sono dichiarati e cadono su interni e finiture, dove ti muovi bene.",
+   "project": "Un recupero per fasi, usandola nel frattempo: guarnizioni e meccanismo della capote, rivestimento dei sedili anteriori, poi la vernice. C'è anche l'hard top per l'inverno.",
+   "doubt": "250.000 km e impianto GPL: l'alimentazione è tra i lavori da professionista e il venditore segnala la bombola da sostituire nel 2028. «Capote solo in manuale» può voler dire poco o molto.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:16:58.660Z",
+  "trailId": "bmw-cabrio",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:16:54.627Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:16:54.627Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_6672fa7bf1fb",
+  "key": "autoscout24:f6dfba85-c519-432c-9e5a-acce60f26e4f",
+  "fingerprint": "saab 99|6000|grammont|1972|50200",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/saab-99-saab-99-benzina-rosso-cat_ma63mo2002-f6dfba85-c519-432c-9e5a-acce60f26e4f",
+  "category": "auto",
+  "name": "Saab 99",
+  "version": "SAAB 99",
+  "facts": {
+   "price": 6000,
+   "priceText": "€ 6.000",
+   "negotiable": false,
+   "year": 1972,
+   "km": 50200,
+   "power": "65 kW",
+   "displacement": null,
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": "Rosso",
+   "city": "Grammont",
+   "zip": "9506",
+   "country": "BE",
+   "lat": 50.80053,
+   "lon": 3.92657,
+   "sellerType": "Privato",
+   "listedAt": "2026-09-25T15:07:09.813Z"
+  },
+  "sellerText": "rijd goed , alles werkt onderaan zeer goede staat mooi interieur , in 2018 in de auto volledig in orde gezet , nieuwe remmen , remleidingen , bodem zwart , banden , daarna is ie gewoon weg gezet in garage en niet mee gereden . nu is ie terug opgestart voor verkoop .\ngeen kosten te voorzien . alles werkt normaal .te bezien in Geraardsbergen",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_963656a9-01b3-4830-82dd-902a93ec2c71.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_65eeb78b-7a3c-42df-b08f-5f9446d14f80.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_65a0cd08-7e19-449a-8d26-a77239aef3a3.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_4b3967fc-00fd-4b12-b4f2-7a070b1ffa36.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_ab8fbcb4-650c-4f6c-b4ad-c7347dfa8cf7.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_6461999e-bfe9-4dd7-b8d8-c6a31278a3cf.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_a7207eb4-ef0d-49e2-9e84-b6796fd6fc50.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_c86d1e1e-faee-40db-bb72-b5c528f47e68.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_a683034b-7520-4fde-8b9c-0167b6e0ac58.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_943a641f-ab18-4f50-9f1f-cfa81b0fa339.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_ab193752-f5ad-4303-a740-efb34ca71a07.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/f6dfba85-c519-432c-9e5a-acce60f26e4f_f7f8c8ef-2325-4341-afed-892d986d846b.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "capire",
+  "scout": {
+   "title": "Una Saab 99 del '72, ferma in garage dal 2018",
+   "why": "Sorpresa ragionata: se della 480 ti piace l'essere fuori dal coro, la 99 è un altro modo svedese di esserlo, vent'anni prima. Non l'hai mai citata: dimmi se la direzione è giusta.",
+   "project": "Il venditore dichiara lavori del 2018 (freni, tubazioni, fondo, gomme) seguiti da anni di garage. Sarebbe da rimettere in uso con calma e poi godersela su strade secondarie, più che da restaurare.",
+   "doubt": "È in Belgio e l'annuncio è in olandese: ritiro e immatricolazione in Italia sono un pezzo del progetto ancora tutto da capire. Dopo anni ferma, «nessuna spesa prevista» è una dichiarazione ottimistica.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:17:04.074Z",
+  "trailId": "saab",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:00.530Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:00.530Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_b3dba2503f61",
+  "key": "autoscout24:e2275de7-466c-4734-97ea-59158e0968a3",
+  "fingerprint": "citroe n bx|2500|cosenza|1987|180000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/citroen-bx-bx-17-rd-diesel-bianco-cat_ma21mo1705-e2275de7-466c-4734-97ea-59158e0968a3",
+  "category": "auto",
+  "name": "Citroën BX",
+  "version": "BX 17 RD",
+  "facts": {
+   "price": 2500,
+   "priceText": "€ 2.500",
+   "negotiable": true,
+   "year": 1987,
+   "km": 180000,
+   "power": "43 kW",
+   "displacement": "1769 cm³",
+   "fuel": "Diesel",
+   "gearbox": "Manuale",
+   "color": "Bianco",
+   "city": "Cosenza",
+   "zip": "87100",
+   "country": "IT",
+   "lat": 39.2982,
+   "lon": 16.25389,
+   "sellerType": "Privato",
+   "listedAt": "2026-10-17T05:48:03.165Z"
+  },
+  "sellerText": "SE L’ANNUNCIO E’ ATTIVO L’AUTO E’ DISPONIBILE\nVENDO CITROËN BX 17 RD\nISCRITTA ASI (CRS) CON GANCIO DI TRAINO E BARRE PORTACACCHI ORIGINALI.\nMOTORE INDISTRUTTIBILE E PARCO NEI CONSUMI. PASSAGGIO DI PROPRIETÀ E BOLLO RIDOTTI.\nLAVORI RECENTI\nSfere anteriori + congiuntore/disgiuntore\nTagliando (Olio e filtri)\nCinghia distribuzione\nSpazzole tergicristalli\nSupporto motore inferiore\nGiunti scatola di sterzo + cuffie + giuntino colonna sterzo\nTubi freno\nRicostruzione ragno con collettore metallico\nValvola di regolazione minimo\nCandelette\nRubinetto riscaldamento\nBlocchetto avviamento nuovo\nOnde evitare problemi preferisco la visione dell'auto con un vostro meccanico di fiducia.\nLa vendita si intende con la clausola vista e piaciuta. No garanzia. Valuto permute Citroen, Volvo, Alfa Romeo, Ducati.\nPREZZO 2500 TRATTABILI",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_2e91eee1-03b6-4c54-ad36-3c1ed73a4c51.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_7e641e97-a05f-4b9c-9913-f87ee99444d5.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_820579f7-f03e-4927-8d48-ef1688c06164.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_59501d72-5cda-40d3-9e9b-2f5e9abd7309.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_3b882299-8ef1-46b8-9bcc-2e0147ae296b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_51651720-b859-409e-9868-715cd4a30e87.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_8c31e0a2-c502-4e8e-ad07-bdecc5c5dccb.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_be39b869-7e47-45a8-9b28-f617639611f4.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_95bc1eda-55ec-41ec-94a5-1a90285bc61b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_cb42dee5-0f18-42aa-92b3-0e262e17c7f0.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_6dcf4b42-a548-4ae8-af00-6dab0e02b2b0.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/e2275de7-466c-4734-97ea-59158e0968a3_9681bad2-0c33-4509-ba39-9d0fa33b1a59.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "La BX diesel con il gancio di traino: viaggiare lenti e comodi",
+   "why": "Sorpresa: un progetto ingegneristico molto personale, pensato per viaggiare comodi. Non è un'auto dal motore brillante (43 kW, diesel): serve a capire quanto per te conta il motore rispetto al carattere dell'insieme.",
+   "project": "Da usare e migliorare: il venditore elenca molti lavori recenti (sfere anteriori, distribuzione, tubi freno). Ha gancio di traino e barre: potrebbe perfino incrociare l'idea del gommone, tutto da verificare.",
+   "doubt": "L'idropneumatica è fuori dai lavori che fai di solito e «motore indistruttibile» è un'opinione del venditore. Con 43 kW il piacere di guida che cerchi potrebbe non esserci.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:17:10.004Z",
+  "trailId": "citroen",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:06.330Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:06.330Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_864138b0123c",
+  "key": "autoscout24:dabdd55b-efb3-45a1-af58-aafe9c2f27bb",
+  "fingerprint": "lancia beta|6990|piobesi|1981|41658",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/lancia-beta-beta-1-6-benzina-argento-cat_ma42mo1819-dabdd55b-efb3-45a1-af58-aafe9c2f27bb",
+  "category": "auto",
+  "name": "Lancia Beta",
+  "version": "Beta 1.6",
+  "facts": {
+   "price": 6990,
+   "priceText": "€ 6.990",
+   "negotiable": false,
+   "year": 1981,
+   "km": 41658,
+   "power": "75 kW",
+   "displacement": "1585 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": "Argento",
+   "city": "Piobesi Torinese",
+   "zip": "10040",
+   "country": "IT",
+   "lat": 44.93391,
+   "lon": 7.61126,
+   "sellerType": "Privato",
+   "listedAt": "2026-06-17T09:11:16.446Z"
+  },
+  "sellerText": "LANCIA BETA COUPÉ 1300 – NOVEMBRE 1981 – TARGHE NERE ORIGINALI ✨\nCi sono automobili che trasportano persone e automobili che raccontano un'epoca. Questa Lancia Beta Coupé appartiene senza dubbio alla seconda categoria.\nImmatricolata nel novembre 1981, si presenta in uno stato di conservazione davvero raro. Le linee eleganti e sportive firmate Lancia, unite all'originalità degli interni e dei dettagli, restituiscono tutto il fascino della migliore produzione automobilistica italiana degli anni '80.\nL'abitacolo è sorprendentemente ben conservato, con sedili, pannelli e plancia che testimoniano una vita trascorsa con cura e passione. Anche il vano motore si presenta ordinato e pulito, a conferma dell'attenzione che questa vettura ha sempre ricevuto.\nCaratteristiche principali:\nLancia Beta Coupé 1300 Immatricolata Novembre 1981 Targhe nere originali Interni originali in eccellente stato Autoradio dell'epoca Vettura conservata e non modificata Iscrivibile Targa Oro ASI\nUna classica italiana sempre più difficile da reperire in queste condizioni, ideale per collezionisti, appassionati del marchio Lancia o per chi desidera possedere un'autentica coupé italiana destinata a rivalutarsi nel tempo.\n💰 Prezzo: € 6.990,00\nVisionabile su appuntamento.\nSolo per veri appassionati.",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_3a678714-8838-4206-ae64-ccbf15f157b1.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_2445f90e-7707-4bb7-95d0-c2a87b456802.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_44e80dc2-0fe7-40d8-88e1-85a423b0e16b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_480c90ce-e5aa-455d-958d-1bb1a48dde66.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_c205eba0-c741-47fd-8bce-562d2a471ca3.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_61f597c7-7e55-44e4-86b2-fe905e05674f.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_1e73e736-b405-41bf-b5b8-869d8474a95c.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_96bdde4d-9ecb-468d-aa83-58d91376863b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_b4c0e655-0c68-40f5-a233-278af343d17d.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/dabdd55b-efb3-45a1-af58-aafe9c2f27bb_9b142d18-f963-43ea-aec9-16dddad2f1f9.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "Una Beta Coupé conservata, con le targhe nere",
+   "why": "Sorpresa italiana lontano dall'Alfa: una coupé con un bialbero e un abitacolo curato. Hai detto che contano motore e abitacolo piacevoli; qui il venditore punta proprio sugli interni originali.",
+   "project": "Più conservazione che restauro: tenerla originale, usarla per le gite e migliorarne i dettagli.",
+   "doubt": "L'annuncio si contraddice: i dati strutturati dicono 1.6 (1585 cm³, 75 kW), il testo dice «Coupé 1300». Finché non è chiaro quale motore abbia, non è chiaro cosa stai guardando. Sulla ruggine il testo non dice nulla.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:17:16.413Z",
+  "trailId": "lancia",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:12.178Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:12.178Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_bb548f560ee3",
+  "key": "autoscout24:20963728-d2b6-4b22-8a79-43d6378b6450",
+  "fingerprint": "porsche 924|11000|milano|1979|61000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/porsche-924-benzina-grigio-cat_ma57mo1951-20963728-d2b6-4b22-8a79-43d6378b6450",
+  "category": "auto",
+  "name": "Porsche 924",
+  "version": "",
+  "facts": {
+   "price": 11000,
+   "priceText": "€ 11.000",
+   "negotiable": true,
+   "year": 1979,
+   "km": 61000,
+   "power": "92 kW",
+   "displacement": "1984 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Automatico",
+   "color": "Grigio",
+   "city": "Milano ",
+   "zip": "20122",
+   "country": "IT",
+   "lat": 45.45228,
+   "lon": 9.19673,
+   "sellerType": "Privato",
+   "listedAt": "2026-02-06T16:38:04.406Z"
+  },
+  "sellerText": "Porsche 924 del 1979, icona del design Porsche con una linea pulita ed elegante, capace di catturare l’attenzione ovunque. Piacevole e fluida da guidare, ideale sia in città che su strade extraurbane. Rarissima versione con cambio automatico, chilometraggio contenuto e solo 2 proprietari da nuova. Dotata di aria condizionata e autoradio Bluetooth. Interni originali in condizioni perfette, restauro recente con motore rifatto a 59000 km e certificazione ASI Targa Oro, che garantisce esenzione bollo e accesso libero ad Area C. Vettura pronta all’uso, di grande interesse collezionistico. Vendita a malincuore per mancanza di spazio.",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_e4882791-9001-4c15-9d2b-086183e45cad.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_c0495b36-a8cf-4c82-a3df-672b07061173.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_8775d70d-ca09-482c-b803-5dcba562cd20.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_73e0881e-3566-4cae-b739-787cce6ad65b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_a00166a9-41d5-4f4c-836b-568a024abaf0.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_6fdb6d89-78f1-47bc-a2a4-62c7060139a3.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_666fda58-cb9b-4a3d-8c64-bafea14debb7.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_7e6bfc79-ea54-4ec6-a426-9c7fc54d24f8.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_72bca2c9-6526-427b-9765-447d008388ee.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_4d3449b6-1020-4c62-84ae-1ca41862a536.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/20963728-d2b6-4b22-8a79-43d6378b6450_b2e66a33-3f2c-4133-b392-495bfceda363.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "La 924 automatica: transaxle in versione tranquilla",
+   "why": "Stesso principio dell'Alfetta, motore davanti e cambio dietro, visto da Stoccarda. Te la mostro per capire se ti interessa l'architettura in sé.",
+   "project": "Il venditore la dichiara pronta all'uso, con motore rifatto a 59.000 km: sarebbe una granturismo da strade secondarie più che un progetto di lavoro.",
+   "doubt": "Il cambio automatico cambia molto il carattere e tu cerchi il piacere di guida: potrebbe essere l'esemplare sbagliato del modello giusto. Un motore rifatto a 59.000 km merita una spiegazione.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:17:22.349Z",
+  "trailId": "transaxle-porsche",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:18.286Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:18.286Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_1d80c9ece0da",
+  "key": "autoscout24:07615e13-d8a0-4101-8095-dc2f66a87c84",
+  "fingerprint": "renault fuego|3400|lescure|1981|146555",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/renault-fuego-gtx-2-litres-benzina-arancione-cat_ma60mo1963-07615e13-d8a0-4101-8095-dc2f66a87c84",
+  "category": "auto",
+  "name": "Renault Fuego",
+  "version": "GTX 2 LITRES",
+  "facts": {
+   "price": 3400,
+   "priceText": "€ 3.400",
+   "negotiable": false,
+   "year": 1981,
+   "km": 146555,
+   "power": "81 kW",
+   "displacement": "1995 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": "Arancione",
+   "city": "LESCURE D'ALBI",
+   "zip": "81380",
+   "country": "FR",
+   "lat": 43.96056,
+   "lon": 2.15975,
+   "sellerType": "Concessionario",
+   "listedAt": "2025-11-13T20:03:22.540Z"
+  },
+  "sellerText": "Equipements : \nVENDUE DANS L ETAT VENDUE SANS GARANTIE VEHICULE PREPARE PISTE VEHICULE EN CONTRE VISITE DEFAILLANCES CRITIQUES",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_152644bc-3272-4992-a247-266b29ed283c.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_d37d4060-1559-4ef1-9740-aa28e07cc1c0.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_2162b8e1-4676-4808-83a3-f609424b17d3.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_cbd0ca07-7300-4bcf-9043-10738eb13d78.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_3b04dd57-4901-49af-8f6d-c2292bce2ccb.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_bf4b5310-894d-41ed-bf3e-4ac6b83ac330.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_13d6df2d-ffa4-42e0-bd06-a06d0174d153.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_452a2e93-4ab9-4dd7-b9ce-d6f108aa4046.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_fc23f6bf-48be-4319-a967-8adc2c6ae8d4.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_7b140ed7-a727-47bb-8760-549090c8450b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_97f47290-3292-42cb-b359-899e017645be.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/07615e13-d8a0-4101-8095-dc2f66a87c84_d0434a1f-ea02-46d2-90cc-13f861a3a486.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "capire",
+  "scout": {
+   "title": "Una Fuego preparata per la pista, venduta così com'è",
+   "why": "Sorpresa vera: una coupé a portellone degli anni Ottanta che non hai mai nominato, parente alla lontana della 480 per epoca e formula.",
+   "project": "Sarebbe un ritorno alla strada: capire cosa è stato modificato per la pista e cosa serve per rimetterla in regola. Tanto smontaggio e riassemblaggio, che è il tuo terreno.",
+   "doubt": "L'annuncio è di tre righe: venduta senza garanzia, con controllo tecnico francese non superato per difetti critici non specificati, e si trova in Francia. Troppe incognite per dire che progetto sia.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:17:28.580Z",
+  "trailId": "coupe-fuori-coro",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:24.470Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:24.470Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_a52eb10b932f",
+  "key": "autoscout24:c9bf19f3-6122-4bb5-ae83-17c6aea75909",
+  "fingerprint": "fiat 124 spider|6950|ripamolisani|1979|75000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/fiat-124-spider-america-2-0-benzina-bianco-cat_ma28mo15351-c9bf19f3-6122-4bb5-ae83-17c6aea75909",
+  "category": "auto",
+  "name": "Fiat 124 Spider",
+  "version": "AMERICA 2.0",
+  "facts": {
+   "price": 6950,
+   "priceText": "€ 6.950",
+   "negotiable": false,
+   "year": 1979,
+   "km": 75000,
+   "power": "77 kW",
+   "displacement": "1995 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": "Bianco",
+   "city": "Ripamolisani - CB - Campobasso",
+   "zip": "86025",
+   "country": "IT",
+   "lat": 41.59275,
+   "lon": 14.67427,
+   "sellerType": "Concessionario",
+   "listedAt": "2025-08-06T08:08:05.666Z"
+  },
+  "sellerText": "VEICOLO VENDUTO COME DA FOTO\nVEICOLO APPENA VERNICIATO\nRESTA DA FARE LE PORTIERE E COFANI (COMPRESI NEL PREZZO )\nMOTORE MARCIANTE \nVEICOLO TEDESCO\nDOCUMENTI IN REGOLA\nINTERNI E TETTO GIA' DAL TAPPEZZIERE PER UN PREVENTIVO COMPLETO DI 1385.00 €\nVEICOLO COMPLETO DI TUTTI I PEZZI.\nPER ULTERIORI INFO [recapito omesso]",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_d56c4340-b485-4194-a018-0be4067619ea.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_fa94abdd-dbbd-42c6-ac7b-184caa1de96b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_8d6d6b92-adde-4280-bde3-e73e82d5a7d1.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_fbee535b-307e-4cce-9aa1-1dc13525b649.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_5ef729e0-cf64-4ac7-bd12-466c55fdfe1c.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_5f18e8e0-12b5-4fa5-96b6-f2c41956cff7.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_7b980e4c-b154-4043-bda1-09a130b30200.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_80a2c7be-0a60-4ee4-b7ed-b41107ef73c9.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_53b2bf7d-9a65-4f74-98fe-9abe51e33e15.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_fb8aaa15-8234-4a67-a8cd-1378cbceb444.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_9f324891-b1a5-4f1e-b94a-4c7844e6c289.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/c9bf19f3-6122-4bb5-ae83-17c6aea75909_3e25677f-d1e2-49bf-ae74-7db206b560b2.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "fasi",
+  "scout": {
+   "title": "Una 124 Spider a metà restauro: finire il lavoro di un altro",
+   "why": "La MG B ti ha coinvolto meno, ma le spider non sono escluse: questa ha un bialbero italiano e un altro carattere. In più è un cantiere aperto proprio su carrozzeria e interni.",
+   "project": "Il venditore dichiara scocca appena verniciata, porte e cofani ancora da fare, motore marciante e pezzi completi. Sarebbe un riassemblaggio con finitura, e poi una spider per la bella stagione.",
+   "doubt": "Riprendere un restauro altrui significa fidarsi di ciò che sta sotto la vernice nuova e della completezza dei pezzi. È indicata come «veicolo tedesco»: documenti da chiarire. Il preventivo del tappezziere citato (1.385 €) è un dato del venditore, non una mia stima.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:17:34.251Z",
+  "trailId": "spider",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:30.431Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:30.431Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_837fb6f7cb5e",
+  "key": "autoscout24:164e2ec6-cced-49eb-a34d-0aafd0530543",
+  "fingerprint": "autobianchi a 112|7000|foggia|1970|95000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/autobianchi-a-112-elegant-benzina-cat_ma15644mo15799-164e2ec6-cced-49eb-a34d-0aafd0530543",
+  "category": "auto",
+  "name": "Autobianchi A 112",
+  "version": "Elegant",
+  "facts": {
+   "price": 7000,
+   "priceText": "€ 7.000",
+   "negotiable": false,
+   "year": 1970,
+   "km": 95000,
+   "power": "45 kW",
+   "displacement": null,
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": null,
+   "city": "Foggia",
+   "zip": "71121",
+   "country": "IT",
+   "lat": 41.46229,
+   "lon": 15.54475,
+   "sellerType": "Privato",
+   "listedAt": "2026-10-04T15:47:21.252Z"
+  },
+  "sellerText": "Autobianchi A112 Elegant 1971 – ASI Targa Oro\nVendo splendida Autobianchi A112 Elegant del 1971, in elegante colore beige con tetto nero.\n95.000 km, conservata con allestimenti originali.\nIscritta ASI con Targa Oro.\nAuto ideale per appassionati e collezionisti di auto storiche italiane.\n📍 Foggia\n💰 € 7.000\nVisionabile previo appuntamento. No perditempo.",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/164e2ec6-cced-49eb-a34d-0aafd0530543_f51ec268-c6ea-4f5b-9a0e-6495e13bd25b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/164e2ec6-cced-49eb-a34d-0aafd0530543_1fd33e0a-10e7-496d-867c-a7a8aaeebffd.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/164e2ec6-cced-49eb-a34d-0aafd0530543_d3e0ccd0-f18f-4e30-b2f5-66abe5728825.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/164e2ec6-cced-49eb-a34d-0aafd0530543_a2fe682d-7341-46a3-9951-69b0c23b1a21.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/164e2ec6-cced-49eb-a34d-0aafd0530543_530d9b40-325e-41cb-9813-efb58830c5ee.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/164e2ec6-cced-49eb-a34d-0aafd0530543_bdc20a0e-3ed4-4637-ae66-bd5bff2d610b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/164e2ec6-cced-49eb-a34d-0aafd0530543_30ae53e5-1de7-4c73-bb0e-95960eee3250.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/164e2ec6-cced-49eb-a34d-0aafd0530543_9229e25d-7d3a-40cf-8662-c11595b00039.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/164e2ec6-cced-49eb-a34d-0aafd0530543_73589849-c02a-4dcb-8c83-6ab2bdfffe49.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "Una A112 prima serie da tenere com'è",
+   "why": "Hai detto che sui mezzi semplici e vecchi puoi fare quasi tutto: una A112 è quel tipo di meccanica. Qui però l'esemplare è presentato come conservato, non da rifare.",
+   "project": "Un'utilitaria storica da usare e mantenere da solo, con la manutenzione nelle tue mani. Più un giocattolo per giri brevi che un'auto da viaggio.",
+   "doubt": "Annuncio breve: «conservata» e «Targa Oro» sono dichiarazioni, e sullo stato della carrozzeria non c'è nulla. Per i viaggi su strade secondarie che descrivi potrebbe essere troppo piccola.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:17:39.838Z",
+  "trailId": "piccole-semplici",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:36.073Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:36.073Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_febbcceb4ee2",
+  "key": "autoscout24:582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e",
+  "fingerprint": "honda xrv 750|3990|latina|1990|49000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/honda-xrv-750-africa-twin-xrv750-benzina-bianco-cat_ma31mo50532-582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e",
+  "category": "moto",
+  "name": "Honda XRV 750",
+  "version": "Africa Twin XRV750",
+  "facts": {
+   "price": 3990,
+   "priceText": "€ 3.990",
+   "negotiable": true,
+   "year": 1990,
+   "km": 49000,
+   "power": "42 kW",
+   "displacement": "742 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": "Bianco",
+   "city": "Latina",
+   "zip": "04100",
+   "country": "IT",
+   "lat": 41.46737,
+   "lon": 12.90404,
+   "sellerType": "Privato",
+   "listedAt": "2026-10-10T01:33:13.516Z"
+  },
+  "sellerText": "Vendo Africa Twin xrv750 rd04 1990\nKm 49000\nLavori eseguiti di recente:\nGomme anteriore e posteriore nuove\nRegolatore di tensione nuovo (200€ spesi di recente)\nCambio olio\nBatteria nuova",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_e3ebcc6c-9a92-468e-a347-6e3ad1c0d414.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_e2bfbd89-3122-4131-b648-460d43f698ad.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_99966697-ff75-42ad-a226-f815510049cc.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_52a96338-652e-492b-b19f-555675ab366d.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_05c2cb83-b5fb-4fbe-b820-70315981ac25.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_859de2c8-6c02-4157-a0db-da99c26143ec.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_81af674f-d68c-4d48-a3fb-91062fe78354.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_34c1e4c8-c985-4bd5-87d2-6b82186c738b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_11af521f-40db-4845-99ed-d723697f25c6.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_e1f2a604-df37-4c8c-8350-526527cd07b0.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_cc07c604-6fea-460f-b246-df0a8151483b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/582e1a0b-ffc1-4158-be2f-2c7d6dd3fc1e_bf079300-7f49-4b91-8529-68a3675e244a.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "Un'Africa Twin RD04, per vedere se il mito regge alla prova",
+   "why": "È il tuo riferimento dichiarato per la moto da viaggio. Vederne una vera, con prezzo e chilometri, serve ad affinare una categoria che non hai ancora esplorato.",
+   "project": "Da usare così com'è per le uscite di tre o quattro giorni, aggiungendo le borse e sistemando ciò che emerge strada facendo.",
+   "doubt": "L'annuncio elenca solo manutenzione ordinaria e non dice nulla di sospensioni, carburatori e storia della moto: i 49.000 km dichiarati su una moto del 1990 sono da verificare.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:17:45.492Z",
+  "trailId": "africa-twin",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:41.757Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:41.757Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_2611157be05d",
+  "key": "autoscout24:2ab16948-fa44-4c4e-85be-b5aa8dd9fd12",
+  "fingerprint": "honda xl 600|5500|moncalieri|1984|43000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/honda-xl-600-xl600r-paris-dakar-benzina-cat_ma31mo54062-2ab16948-fa44-4c4e-85be-b5aa8dd9fd12",
+  "category": "moto",
+  "name": "Honda XL 600",
+  "version": "XL600R Paris Dakar",
+  "facts": {
+   "price": 5500,
+   "priceText": "€ 5.500",
+   "negotiable": false,
+   "year": 1984,
+   "km": 43000,
+   "power": "33 kW",
+   "displacement": "600 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": null,
+   "city": "Moncalieri",
+   "zip": "10024",
+   "country": "IT",
+   "lat": 44.99919,
+   "lon": 7.68011,
+   "sellerType": "Privato",
+   "listedAt": "2026-10-29T14:27:27.876Z"
+  },
+  "sellerText": "Honda XL600R Paris Dakar (1984) – Restauro Totale Professionale da Collezione \nVendo splendida Honda XL600R Paris Dakar del 1984 , un’autentica icona delle due ruote e un pezzo di storia del motociclismo Enduro degli anni d'oro della Dakar, in superba colorazione Honda HRC\nLa moto è stata sottoposta a un restauro totale, capillare e maniacale a livello professionale . Ogni singolo componente è stato curato per riportare questo mito al suo splendore originale, preservandone l'anima vintage.\nDettagli principali: \nChilometraggio: 43.000 Km totali (solamente 1.500 Km percorsi dopo il restauro ) Targa: Originale dell'epoca, un valore aggiunto fondamentale per i collezionisti. Corredo storico: borsa portadocumenti Honda originale, su portapacchi posteriore, libretto di uso e manutenzione originale dell'epoca. \nInterventi effettuati e documentati: \nMotore: completamente aperto, revisionato e rigenerato a nuovo in ogni sua parte meccanica ed estetica. Carrozzeria: verniciatura professionale fedele all'originale dell'epoca. Decals: grafiche storiche nuove applicate con precisione millimetrica. Documentazione: l'intero processo di restauro è completamente documentato. La moto è pronta per essere utilizzata e per affrontare qualsiasi viaggio, raduno o esposizione. È disponibile per qualsiasi prova con il vostro meccanico di fiducia.\nQuesto è un vero e proprio pezzo da collezione destinato ad amatori, collezionisti e puristi del vintage che sanno riconoscere il valore di un lavoro eseguito a regola d'arte.\nMassima serietà. Il prezzo rispecchia la qualità e l'esclusività del restauro, pertanto non è trattabile . Si prega di evitare proposte al ribasso. No perditempo, sognatori o curiosi : rispondo solo a persone realmente interessate e consapevoli del valore del mezzo.",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_08f9236e-c133-460d-a2b4-5328978da0da.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_d8cd7ba8-c8bd-46a6-b145-830a33c829de.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_99c738cf-8e0d-4327-ab9c-f8444382690b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_84fbb02a-b779-49a6-9467-5a895f008ac6.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_329f3edf-8fd9-400b-8a47-f1b84e505b35.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_7e58ac8c-90dd-4d63-830b-e26f3c3dfe71.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_b2948d39-804f-4ddf-bdc8-2da3aaf5d378.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_cc30af92-2f8c-409e-bdde-ca45c1023e8d.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_0467e9fd-2ffe-4810-aa66-b0ead8a4691b.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_19f8785a-cd81-48d2-86d1-8712dd33d136.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_7a0da487-bc17-4e66-b0ca-159a30f436a7.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2ab16948-fa44-4c4e-85be-b5aa8dd9fd12_70fbed6d-1129-456f-8397-66c23d7fcba7.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "Una XL600R Paris-Dakar già restaurata: viaggio o vetrina?",
+   "why": "Stesso immaginario dell'Africa Twin, qualche anno prima e con un monocilindrico. Te la mostro per capire quanto ti attira la moto da raid in sé e quanto il bicilindrico da viaggio.",
+   "project": "Il venditore la dichiara restaurata a fondo da professionisti: resterebbe solo da usarla. Giri fuori porta e strade bianche più che lunghi viaggi con le borse.",
+   "doubt": "Un restauro «da collezione» ti toglie il piacere del lavoro e rende difficile caricarla e usarla senza pensieri. Con un monocilindrico da 33 kW i viaggi lunghi potrebbero starti stretti.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:17:51.642Z",
+  "trailId": "viaggiatrici",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:47.535Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:47.535Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_b4e95834a6cd",
+  "key": "autoscout24:2f679795-6b67-4beb-9029-86b017daaf28",
+  "fingerprint": "suzuki gs 550|2500|crucoli|1981|1000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/suzuki-gs-550-cafe-racer-benzina-cat_ma68mo52218-2f679795-6b67-4beb-9029-86b017daaf28",
+  "category": "moto",
+  "name": "Suzuki GS 550",
+  "version": "Cafe Racer",
+  "facts": {
+   "price": 2500,
+   "priceText": "€ 2.500",
+   "negotiable": false,
+   "year": 1981,
+   "km": 1000,
+   "power": "50 kW",
+   "displacement": null,
+   "fuel": "Benzina",
+   "gearbox": null,
+   "color": null,
+   "city": "Crucoli Torretta",
+   "zip": "88812",
+   "country": "IT",
+   "lat": 39.4248,
+   "lon": 17.0032,
+   "sellerType": "Privato",
+   "listedAt": "2026-09-08T14:23:14.715Z"
+  },
+  "sellerText": "Per immediato realizzo vendo a prezzo stracciato Suzuki GS 550e 1981, bollo esente e assicurazione ridotta, trasformazione cafe racer, batteria al litio, impianto elettrico semplificato, e tante altre modifiche. \nDisponibile a visione e prova. \nAltre foto e video in privato\nPosso valutare scambio con coppia Technics Sl 1210 fino al Mk5 e/o collezione vinili + eventuale conguaglio. Non scambio con null’altro.",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/2f679795-6b67-4beb-9029-86b017daaf28_53d766e3-4f99-45cc-8ddc-54c628829842.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2f679795-6b67-4beb-9029-86b017daaf28_790be88d-ec00-4e86-97cc-a00034020eb2.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/2f679795-6b67-4beb-9029-86b017daaf28_49f9102f-fe08-4b54-82ab-4d0213f86e0b.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "capire",
+  "scout": {
+   "title": "Una café racer già fatta, da un altro",
+   "why": "Hai parlato di una café racer tranquilla per i giri fuori porta: questa è una quattro cilindri del 1981 già trasformata. Serve anche a capire se la vuoi costruire tu o trovarla pronta.",
+   "project": "Usarla per giri brevi e rifinire a gusto tuo ciò che non ti convince della trasformazione.",
+   "doubt": "«Tante altre modifiche» e «impianto elettrico semplificato», senza dettagli: non si sa cosa è stato fatto né come, e va verificato che le modifiche siano in regola con i documenti. I 1.000 km indicati non sono credibili per una moto del 1981.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:18:03.483Z",
+  "trailId": "cafe-basi",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:17:59.454Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:17:59.454Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_5486d979c531",
+  "key": "autoscout24:9e75515a-9192-48db-9e2e-2a112546bda5",
+  "fingerprint": "moto guzzi v 7|3500|piscina|2018|47000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/moto-guzzi-v-7-iii-stone-benzina-nero-cat_ma50074mo52871-9e75515a-9192-48db-9e2e-2a112546bda5",
+  "category": "moto",
+  "name": "Moto Guzzi V 7",
+  "version": "III stone",
+  "facts": {
+   "price": 3500,
+   "priceText": "€ 3.500",
+   "negotiable": true,
+   "year": 2018,
+   "km": 47000,
+   "power": "38 kW",
+   "displacement": "744 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": "Nero",
+   "city": "Piscina",
+   "zip": "10060",
+   "country": "IT",
+   "lat": 44.91987,
+   "lon": 7.42641,
+   "sellerType": "Privato",
+   "listedAt": "2026-11-09T09:13:46.988Z"
+  },
+  "sellerText": "MOTO GUZZI V7 III STONE APRILE 2018\nMoto tenuta in maniera maniacale da vero appassionato, perfette condizioni, sempre tagliandata dal concessionario Guzzi da cui l'ho acquistata BEPPE MOTO di Moncalieri (TO), posso fornire tutte le fatture.\nOptional: kit portapacchi, telai borse laterali + borse laterali in pelle originali Guzzi, kit paraprezza, kit paramotore, antifurto elettronico.\nAmmortizzatori posteriori Bitubo che cambiano totalmente il comfort di guida.\nPneumatico posteriore sostituito con il tagliando di luglio 2026.\nSempre tenuta in garage.",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_8189fbec-2eb9-48ea-a7a6-71549ad89d72.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_165fc1e6-c932-401a-8268-67d0f4fcf510.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_fa194417-7c47-45b1-bc6d-35e2bbf84ccf.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_ed725528-2cb6-469a-b85b-133b252328a1.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_9b6ab2a0-fabe-4141-aa22-a954671de312.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_c3179836-f4f7-498b-9260-4025b60fea4e.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_298f527b-0a57-4957-b24e-a14d2c537af6.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_2331be1c-e011-4649-a5b4-7cc129b99ec2.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_5f50deb3-a881-4689-a7db-5751b10f642a.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_e1bd8657-cbe3-46c3-a3ae-875e77847840.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/9e75515a-9192-48db-9e2e-2a112546bda5_ec0870d7-5a98-4597-9a8b-b653e1b56c13.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "Una Guzzi moderna già vestita per il viaggio lento",
+   "why": "Sorpresa: non è un restauro e nemmeno una moto d'epoca. Ma ha una meccanica riconoscibile e arriva con borse e portapacchi, cioè l'uso da tre o quattro giorni che descrivi.",
+   "project": "Nessun cantiere: partire. Il venditore dichiara tagliandi in concessionaria con fatture. Potrebbe essere la moto «per usare» accanto a un progetto più lento su altro.",
+   "doubt": "È un mezzo recente, con iniezione ed elettronica: lascia poco al piacere di restaurare e alcuni lavori non sarebbero tuoi. 47.000 km in otto anni: è stata usata davvero.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:18:09.630Z",
+  "trailId": "guzzi",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:18:05.539Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:18:05.539Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_0b718d84be13",
+  "key": "kleinanzeigen:3561134559",
+  "fingerprint": "neuwertig honwave schlauchboot 15 ps honda aussenborder|3600|mu||",
+  "source": "kleinanzeigen",
+  "sourceLabel": "Kleinanzeigen (Germania)",
+  "url": "https://www.kleinanzeigen.de/s-anzeige/neuwertig-honwave-schlauchboot-15-ps-honda-aussenborder/3561134559-211-18697",
+  "category": "gommoni",
+  "name": "NEUWERTIG..Honwave Schlauchboot & 15 PS Honda Aussenborder",
+  "version": "",
+  "facts": {
+   "price": 3600,
+   "priceText": "3.600 €",
+   "negotiable": false,
+   "city": "Mülheim - Köln Holweide",
+   "zip": "51067",
+   "country": "DE",
+   "lat": 50.972831,
+   "lon": 7.053158,
+   "sellerType": "Privato",
+   "language": "tedesco"
+  },
+  "sellerText": "NUR ABHOLUNG\nAus gesundheitlichen Gründen verkaufe ich mein Schlauchboot aus dem Jahr 7/22 , gekauft bei Marine Olbermann in Köln ( Rechnung vorhanden )\nHonda / Honwave T40 AE3 mit Aluminiumboden.\nNeupreis €1710,-\nHonda ( Aussenborder ) BF 15 SHU\nNeupreis mit Rabatt € 2750,-\nETLICHES HOCHWERTIGES ZUBEHÖR IST IM PREIS ENTHALTEN .\nCa. € 1100,-\nDer Motor hat NUR eine Laufleistung von ca. 45 Stunden.\n( also praktisch gerade erst eingefahren)\nDas Boot war immer im Winterlager .\nFestpreis € 3600,00\nDas Boot befindet sich in 8531 Lemmer ( Holland ).\nLemmer ist immer eine Kurzreise wert.\nBARZAHLUNG bei Abholung\nIch schließe jegliche Sachmangelhaftung aus.\nPrivatverkauf",
+  "images": [
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/df/df25afb5-028c-487d-b0c4-0112490e6af6?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d0/d0e58fd6-ee14-4356-b000-2d1d8310a9b7?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/da429f11-886a-4b86-b6b3-f6a1716b6893?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c5/c57d8ed0-8fc5-4a1c-b783-e33382aa2a4d?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/08/088e29ed-afc2-4912-8e2c-573ee79ed75d?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7d137ebc-36b0-4293-a96e-ec031f67ad45?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8f/8f279562-6e67-496f-956f-79ac2b17df54?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/04/04f32bcf-d5db-446a-9774-3e2d57a435ef?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a4558d29-836e-41ce-9a5e-020419462bd8?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5f56ecab-ac5b-4888-b705-0c3dd992cd29?rule=$_59.AUTO",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e480222-cf42-4b40-8932-84744bc347ba?rule=$_59.AUTO",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b0/b0814e5f-8376-4296-94cb-2d75246156b2?rule=$_59.AUTO"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "Il fratello maggiore del T32: quattro metri e 15 cavalli",
+   "why": "Hai apprezzato l'Honwave T32 IE3: questo è il T40 della stessa famiglia, con pagliolo in alluminio, venduto insieme al motore. Più spazio a bordo, più logistica.",
+   "project": "Sarebbe già il corredo completo per i weekend al mare con il furgone: gommone, fuoribordo e accessori, dichiarati quasi nuovi.",
+   "doubt": "Con circa quattro metri, pagliolo in alluminio e un 15 cavalli siamo nella zona «lo userei meno per la logistica»: pesi e ingombri vanno verificati e il tetto del Vito non è dato per scontato. Il venditore scrive che la barca si trova a Lemmer, in Olanda, solo ritiro.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:18:18.933Z",
+  "trailId": "honwave",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:18:13.632Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "Kleinanzeigen (Germania)"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:18:13.632Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_a4854dd41998",
+  "key": "kleinanzeigen:3520019942",
+  "fingerprint": "zodiac cadet 340s schlauchboot yam 8ps 2 takt motor ohne trailer|800|nordrhein||",
+  "source": "kleinanzeigen",
+  "sourceLabel": "Kleinanzeigen (Germania)",
+  "url": "https://www.kleinanzeigen.de/s-anzeige/zodiac-cadet-340s-schlauchboot-yam-8ps-2-takt-motor-ohne-trailer-/3520019942-211-1522",
+  "category": "gommoni",
+  "name": "Zodiac Cadet 340S Schlauchboot Yam 8PS 2-Takt Motor\"OHNE Trailer\"",
+  "version": "",
+  "facts": {
+   "price": 800,
+   "priceText": "800 € VB",
+   "negotiable": true,
+   "city": "Nordrhein-Westfalen - Mettmann",
+   "zip": "40822",
+   "country": "DE",
+   "lat": 51.2543907,
+   "lon": 6.9831962,
+   "sellerType": "Privato",
+   "language": "tedesco"
+  },
+  "sellerText": "Ich biete hier mein Schlauchboot Zodiac 340S mit Holzboden an!\"\n\"OHNE TRAILER\"\n\"NUR ABHOLUNG UND BARZAHLUNG\"\nBj.2013\nLänge 3,4m Breite 1,79m Tiefgang 0,30m\nMit dabei sind:\n-Eigner Handbuch\n-Konformitätserklärung\n-leichte klappbare Slipräder die angeklappt ca.Spiegehöhe haben (siehe Fotos)\n-Festmachseil\n-eine stabile feste Badeleiter für Schlauchboote.\n-1 Klappanker mit Seil.\n-2 Sitzbänke (1x gepoltstert)\n-2 Paddel (eine Befestigung leicht angerissen)\n-2 Flachfender\n-12V Pumpe\n-Tank mit Anzeige und Schlauch mit Pumpball\n-ev.noch andere Teile\nDas Boot wurde einmal bei dem Vorbesitzer 2020 durch die PieperTechnik GmbH fachmannisch repariert (mit Beleg 266,20 €)\nIch habe zwei Verstärkungsstreben innen vom Spiegel bis ans 1te Bodenbrett aus Aluminium instaliert Schrauben natürlich V4A !\nDa könnte man jetzt was größeres dranmachen !\nMaximal empfohlene Motorisierung 20PS !\nDer Motor ist ein Yamaha 8PS (6PS) 2-takt Bj.2003 \"mit Papiere\"\nBei weiteren Fragen bitte Melden kann noch Fotos machen !\nACHTUNG, WICHTIGER HINWEIS!\nWegen der neuen Gesetzesbestimmungen erfolgt der Verkauf unter Ausschluss jeglicher Gewährleistung, Garantie und Rücknahme. Da es sich um einen Privatverkauf handelt, kann ich keine Garantie nach neuem EU-Recht übernehmen. Der Käufer erklärt sich damit einverstanden und erkennt dies mit seinem Kauf an! Laut dem neuen EU-Recht muss dieser Zusatz unter jedem Online-Verkauf stehen, ansonsten haftet der Verkäufer auch als Privatperson ein ganzes Jahr für die verkaufte Ware! Der Artikel wird \"so wie er ist\" verkauft!\nPS:\n\"Ich habe noch zwei\" Anzeigen eingestellt folgendes gehört nicht zu\n\"DIESER ANZEIGE\" ! ! ! ! !\n1.) einen drehbaren Klappsitz, verschraubt (V4A Schrauben) auf zusätzlichem originalem Holzbodenbrett für Zodiac Cadett 340S damit konnte ich Super mit Pinne-Verlängerung fahren und ringsum alle sehen.\nMit Fotos !\n2.) einen Lenkradstand mit Lenkrad und Lenkgetriebe verschraubt (V4A)\nauf original Zodiac Cadett 340S Holzbodenbrett hatte ich allerdings noch nicht eingesetzt. Mit Fotos !",
+  "images": [
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b4eb652-662f-416e-8b00-960278424428?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/36/36cb8d0d-c441-4fc2-8ede-78d9be180b89?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e6/e6a2878e-95dc-4c13-84cf-13b4f7086fe4?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4f9336ee-6a72-419a-99b2-617a078cc1b9?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/28/2844014a-b473-43e9-8d87-0c34cf9e8acc?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/25/25122fe1-da46-42cb-8faf-de996306a427?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2e7bb11f-70c7-4e47-9b32-97a833140c03?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f9/f9dfbd9c-ec0b-4b83-b66d-d2e436491e06?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/58/58fe6dc4-2672-4cb9-9020-a6fbfab5a8b8?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9a/9a8a225c-a13e-45d0-9442-d9b86750e94b?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bf/bf7c57f9-87fd-4b04-8263-af6f61a5b249?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/bacf448e-5bf4-4354-b1be-7d6ecfafd9a7?rule=$_59.AUTO"
+  ],
+  "imageKind": "esemplare",
+  "effort": "fasi",
+  "scout": {
+   "title": "Zodiac Cadet 340 con un vecchio due tempi",
+   "why": "Marchio storico e 3,40 metri: una via di mezzo tra il compatto che cerchi e gli smontabili più grandi. Arriva con motore e molti accessori.",
+   "project": "Un insieme pronto per esplorare la costa, da sistemare dove serve. Il venditore dichiara 1,79 m di larghezza: spazio vero a bordo.",
+   "doubt": "Il proprietario ha aggiunto rinforzi allo specchio di poppa e segnala una riparazione professionale del 2020: modifiche e incollaggi vanno visti dal vivo. Il due tempi del 2003 è un'incognita e l'alimentazione è tra i lavori da professionista. Ritiro in Germania.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:18:31.324Z",
+  "trailId": "smontabili-grandi",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:18:27.431Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "Kleinanzeigen (Germania)"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:18:27.431Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_f61358135102",
+  "key": "autoscout24:78b095fd-2634-44bd-9049-292ad578afa0",
+  "fingerprint": "bmw r 100|3900|milano|1983|89000",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/bmw-r-100-benzina-cat_ma13mo53046-78b095fd-2634-44bd-9049-292ad578afa0",
+  "category": "moto",
+  "name": "BMW R 100",
+  "version": "",
+  "facts": {
+   "price": 3900,
+   "priceText": "€ 3.900",
+   "negotiable": false,
+   "year": 1983,
+   "km": 89000,
+   "power": "48 kW",
+   "displacement": null,
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": null,
+   "city": "Milano",
+   "zip": "20155",
+   "country": "IT",
+   "lat": 45.49532,
+   "lon": 9.161,
+   "sellerType": "Privato",
+   "listedAt": "2026-09-25T22:05:49.466Z"
+  },
+  "sellerText": "Borse originali incluse\nTagliandi regolari in officina specializzata\nRevisione effettuata ad Aprile 2026\nNon iscritta ad ASI",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/78b095fd-2634-44bd-9049-292ad578afa0_36d25727-884c-4b44-ae08-cf0f20770c3c.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/78b095fd-2634-44bd-9049-292ad578afa0_1f107f72-fbc8-430e-8da7-98e7a7fa160c.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/78b095fd-2634-44bd-9049-292ad578afa0_b05dcd3b-f9e3-461f-8fda-4d8e4b0a8ff3.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/78b095fd-2634-44bd-9049-292ad578afa0_efe57f1f-1583-4f27-92ab-a57d6d0f6983.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/78b095fd-2634-44bd-9049-292ad578afa0_ce7eaf18-7fc8-4e68-a675-5f31af0c7530.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "Una boxer con le borse: forse una moto sola per due desideri",
+   "why": "Sta a metà tra le tue due idee: una classica raffreddata ad aria per i giri tranquilli, già con le borse originali per le uscite di più giorni.",
+   "project": "Usarla subito per i fine settimana lunghi e, col tempo, decidere se tenerla turistica o alleggerirla. La meccanica a vista invita a metterci le mani.",
+   "doubt": "Quattro righe di annuncio e nessuna indicazione sulla versione (R 100 è una famiglia intera): non si capisce cosa sia esattamente. 89.000 km senza una storia documentata nell'annuncio.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:19:04.448Z",
+  "trailId": "boxer",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:18:58.980Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:18:58.980Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_2557325ac57d",
+  "key": "kleinanzeigen:3570143410",
+  "fingerprint": "schlauchboot mit aluboden|250|baden||",
+  "source": "kleinanzeigen",
+  "sourceLabel": "Kleinanzeigen (Germania)",
+  "url": "https://www.kleinanzeigen.de/s-anzeige/schlauchboot-mit-aluboden/3570143410-211-8027",
+  "category": "gommoni",
+  "name": "Schlauchboot mit Aluboden",
+  "version": "",
+  "facts": {
+   "price": 250,
+   "priceText": "250 €",
+   "negotiable": false,
+   "city": "Baden-Württemberg - Kandern",
+   "zip": "79400",
+   "country": "DE",
+   "lat": 47.6964378,
+   "lon": 7.6530085,
+   "sellerType": "Privato",
+   "language": "tedesco"
+  },
+  "sellerText": "Biete Schlauchboot Jago 320 inklusive Slipwagen\nZubehör Anker / Seil /Zusatzpaddel / Flickzeug. Bin leider mal im Urlaub auf einen Felsen gestoßen und daher wurde es am Bug schon geflickt aber es ist sauber und hält die Luft.\nNoch ein Hinweis in eigener Sache, leider muss ich mein Geld mit Schichtarbeit verdienen daher kann ich nicht Pausenlos online sein. Da hilft es auch nicht wenn man ständig Fragezeichen sendet. Ich melde mich selbstverständlich immer auf jede Anfrage zurück.\nDas ist ein Privatverkauf",
+  "images": [
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/54/54817c1e-184d-4809-9cab-6e8a4ad48322?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/ee4dd0db-9696-4125-9be8-8b5b919deea3?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/26/26551970-f070-4ac0-b0dd-ff9d2bb643bc?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4b/4b127e05-9a11-483c-8dfd-19f1dc220d15?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9b/9b6be360-7040-41c9-bd69-b4d29505aeb4?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/75/75783786-e1a2-439e-8bc8-a050a8cf5877?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/88/88ef8d96-6b0b-4b7f-b40a-579e1c8abcaa?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/007d891e-c008-434d-96fe-58a779591331?rule=$_59.JPG",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/72/72046b5e-c219-4834-b041-81199534af1d?rule=$_59.AUTO",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0b/0bbf118e-1624-46f7-8082-23f22f6fa93f?rule=$_59.AUTO",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/98/98428a39-9669-4278-b3d0-3064b000fe1d?rule=$_59.AUTO",
+   "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/523f05f0-97c9-4b05-939c-f47ce01977f6?rule=$_59.AUTO"
+  ],
+  "imageKind": "esemplare",
+  "effort": "capire",
+  "scout": {
+   "title": "Un 3,20 economico con una toppa a prua",
+   "why": "È nella taglia che indichi come direzione principale: compatto, ma sopra i 2,5 metri che per te sono pochi. Costa poco: un modo per capire sul campo se la misura è quella giusta.",
+   "project": "Un gommone di prova: usarlo una stagione per capire spazio a bordo e logistica con il furgone, prima di pensare a qualcosa di meglio. L'annuncio non parla di motore.",
+   "doubt": "Il venditore dichiara un urto su uno scoglio e una riparazione a prua che «tiene l'aria»: è il punto da guardare. Nessun dato su età e materiale, e bisogna andarlo a prendere nel sud della Germania.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:19:16.727Z",
+  "trailId": "compatti-pagliolo",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:19:10.559Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "Kleinanzeigen (Germania)"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:19:10.559Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_4df6ed6847be",
+  "key": "autoscout24:fd15976e-2943-4c32-a526-e846f0517a2f",
+  "fingerprint": "yamaha xj 900|3400|monza|1995|23700",
+  "source": "autoscout24",
+  "sourceLabel": "AutoScout24 Italia",
+  "url": "https://www.autoscout24.it/annunci/yamaha-xj-900-s-diversion-registro-storico-fmi-benzina-nero-cat_ma50107mo52022-fd15976e-2943-4c32-a526-e846f0517a2f",
+  "category": "moto",
+  "name": "Yamaha XJ 900",
+  "version": "S Diversion [Registro Storico FMI]",
+  "facts": {
+   "price": 3400,
+   "priceText": "€ 3.400",
+   "negotiable": false,
+   "year": 1995,
+   "km": 23700,
+   "power": "66 kW",
+   "displacement": "892 cm³",
+   "fuel": "Benzina",
+   "gearbox": "Manuale",
+   "color": "Nero",
+   "city": "Monza",
+   "zip": "20900",
+   "country": "IT",
+   "lat": 45.58313,
+   "lon": 9.27296,
+   "sellerType": "Privato",
+   "listedAt": "2026-08-21T10:31:26.451Z"
+  },
+  "sellerText": "Tourer ideale per turismo a medio e lungo raggio, sella comoda anche in coppia, ottima la protezione aerodinamica, motore generoso e bassi consumi, il serbatoio da 24 litri assicura autonomie elevate.\n● Cilindrata 892 cc\n● Potenza 90 Hp\n● 4 cilindri in linea a carburatori\n● Trasmissione a cardano\n● Raffreddamento misto aria olio\n● 23.700 Km ORIGINALI.\n■ Moto in perfetta efficienza ■\nLa moto è originale in ogni dettaglio e iscritta al Registro Storico FMI con relativa certificazione, Targa Oro e trascrizione su libretto, circola senza limitazioni. Esente bollo di circolazione, scadenza revisione ministeriale aprile 2028.\nTenuta sempre con grande cura e regolarmente tagliandata annualmente indipendentemente dai chilometri percorsi, sempre custodita in box.\n● Giugno 2024 revisione totale forcelle\n● Aprile 2026 gomme sostituite in Service Yamaha (400 Euro).\n● Maggio 2026 Tagliando, Carburatori (pulizia ultrasuoni, guarnizioni e Oring, sincronizzazione), Candele, Olio circuito freni, Olio cardano.\n● Batteria sostituita ottobre 2025\n■ Mai caduta o scivolata neanche da ferma ■\n■ Notare le condizioni estetiche, verniciatura, cromature dei collettori, dei silenziatori finali e la bellezza del propulsore con le classiche teste alettate.\nDotazioni originali:\n● Doppie chiavi\n● Kit attrezzi\n● Libretto uso e manutenzione\n● Lucchetto ad arco in apposito vano sottosella\nAccessori:\n● Due paramotore tubolari in acciaio cromato.\nVideo e altre immagini su canale YT stringa di ricerca: Lenart soloquattro\nIn moto da 50 anni e tante moto possedute, vendo le mie moto per problemi di ernie vertebrali estese che non mi permettono l'utilizzo.\nMassima serietà e chiarezza (e la gradirei dall'acquirente), astenersi cortesemente commercianti e affaristi.\nPagamento con bonifico istantaneo alla voltura, oppure un giorno prima con bonifico ordinario.",
+  "images": [
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_b1237f58-4387-4fc8-8cc1-c20eb6c2d235.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_9cd71649-97a4-4394-9d6f-c85f6d447235.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_29d9f77e-4742-41d1-afb8-cdf2341b8d51.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_dd550c2f-b839-43d1-8155-4ab9905edfe7.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_14ff8ed1-42ed-47f9-9a47-363b626d2e9f.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_16e9ea88-4401-468c-b1c1-ce5fe0e7b558.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_85a52fbc-2cd0-4417-9dda-71847604a93a.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_e4a0e0e6-d670-4ba9-b3b6-0c42a49577c9.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_8260752e-fb19-4830-b0bd-c59403bde02f.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_27c8a110-4990-4f23-8541-23c3e4fe8b51.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_b798a800-8e32-4317-a2a3-3113502a1c6d.jpg/1280x960.webp",
+   "https://prod.pictures.autoscout24.net/listing-images/fd15976e-2943-4c32-a526-e846f0517a2f_b02aa822-aded-4d0f-a356-d395363ee386.jpg/1280x960.webp"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "La granturismo dimenticata: quattro cilindri, cardano e 24 litri",
+   "why": "Sorpresa: lontana dall'immaginario Africa Twin ma costruita per lo stesso uso, giorni di viaggio con bagaglio. Quattro cilindri a carburatori e trasmissione a cardano.",
+   "project": "Da usare e basta, se lo stato è quello descritto: il venditore elenca lavori recenti e datati (forcelle, carburatori, gomme). Mancherebbero le borse.",
+   "doubt": "È una stradale carenata: niente strade bianche e poco fascino da raid. Potrebbe essere la moto giusta per l'uso e sbagliata per l'immaginario.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:19:22.973Z",
+  "trailId": "moto-insolite",
+  "kind": "sorpresa",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:19:19.042Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "AutoScout24 Italia"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:19:19.042Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_b2bd1fe10b40",
+  "key": "subito:665631533",
+  "fingerprint": "gommone honwave|4130|bologna||",
+  "source": "subito",
+  "sourceLabel": "Subito.it",
+  "url": "https://www.subito.it/nautica/gommone-honwave-bologna-665631533.htm",
+  "category": "gommoni",
+  "name": "Gommone Honwave",
+  "version": "lunghezza indicata 3,20 m",
+  "facts": {
+   "price": 4130,
+   "priceText": null,
+   "city": "Bologna",
+   "country": "IT",
+   "lat": null,
+   "lon": null,
+   "sellerType": null
+  },
+  "sellerText": "Vero affare, con meno di 60 ore di navigazione, vendo come nuovo gommone Honwave T32 con motore Honda 10 HP con garanzia Honda attiva, acquistato Maggio 2024, completo di:\n- Tendalino 2 archi\n- Ruote alaggio Osculati\n- Dotazione 4 persone 3 miglia\n- Pompa 12V alta pressione \n- Serbatoio 10 lt.\n- Cuscino panca con comoda sacca integrata \n- Capiente sacca di prua\n- Coppia paracolpi \n- Telo copriscafo originale Honwave\n- Cavalletto portamotore",
+  "images": [
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/8f/8f4e5a85-b054-48ea-9444-2a5b5db2171a?rule=fullscreen-1x-auto",
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/2a/2a040a82-7188-4d75-a7d2-62892f5f5e88?rule=fullscreen-1x-auto",
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/96/96c7386a-0179-4074-a8b1-05e66624e27c?rule=fullscreen-1x-auto",
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/b0/b0af9d8f-187a-48b7-a8f4-3ee0d43ed8c8?rule=fullscreen-1x-auto",
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/52/528c0f71-3ad9-48da-a830-edaeaab02e15?rule=fullscreen-1x-auto"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "Proprio un T32, con il suo dieci cavalli",
+   "why": "È il modello che hai indicato come riferimento apprezzato: il venditore lo dichiara Honwave T32, senza precisare la versione del pagliolo. Viene venduto insieme al motore e a un corredo da uscita in giornata.",
+   "project": "I weekend che descrivi, già apparecchiati: gommone, fuoribordo, tendalino, ruote di alaggio. Resterebbe da capire come viaggia con il furgone.",
+   "doubt": "Pesi e ingombri di gommone e motore non sono nell'annuncio e il tetto del Vito non è dato per scontato. La lunghezza di 3,20 m è quella riportata dal sito, da verificare. «Garanzia attiva» è una dichiarazione da controllare sui documenti.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:28:10.518Z",
+  "trailId": "honwave",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:28:01.846Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "Subito.it"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:28:01.846Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ },
+ {
+  "id": "s_408b7a7b2914",
+  "key": "subito:664296262",
+  "fingerprint": "gommone 4mt honda 20cv pari al nuovo|3500|lecce||",
+  "source": "subito",
+  "sourceLabel": "Subito.it",
+  "url": "https://www.subito.it/nautica/gommone-4mt-honda-20cv-pari-al-nuovo-lecce-664296262.htm",
+  "category": "gommoni",
+  "name": "Gommone 4mt + Honda 20CV - pari al nuovo",
+  "version": "lunghezza indicata 4,00 m",
+  "facts": {
+   "price": 3500,
+   "priceText": null,
+   "city": "Lecce",
+   "country": "IT",
+   "lat": null,
+   "lon": null,
+   "sellerType": null
+  },
+  "sellerText": "Vendo gommone Honda Honwave T40 da 4 metri, completo di motore Honda BF20 SHU 20CV 4 tempi.\nGommone e motore acquistati nuovi appena un mese fa, con solo 20 ore di utilizzo del motore.\nMezzo ideale per gli amanti della pesca e del mare, spazioso, stabile e pratico da utilizzare e trasportare.\nAccessori inclusi nella vendita:\n* Motore Honda BF20 SHU 20CV 4 tempi con 20 ore\n* Serbatoio carburante\n* Carrellino pieghevole per trasporto a mano\n* Supporto porta trasduttore\n* Portacanne in acciaio inox\n* Carrello per motore \n* Telo copertura \n* Remi e Pompa Originali \nIl tutto acquistato recentemente e utilizzato pochissimo.\nDisponibile per visione e ulteriori informazioni.\nVendo anche separatamente \nContattatemi se realmente interessati.\nPrimo contatto preferibile su whatsapp",
+  "images": [
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/88/88aab761-3c0c-4f0f-9b3f-cf4a5df50264?rule=fullscreen-1x-auto",
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/a4/a482bef3-8744-470d-898e-36785605ee4a?rule=fullscreen-1x-auto",
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/09/09123b7b-05f1-4387-a3df-6612f8f8e6d0?rule=fullscreen-1x-auto",
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/d3/d3d9572f-a213-4c08-a989-f526152a109e?rule=fullscreen-1x-auto",
+   "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/13/13218488-2670-4c90-99c2-37a48f45bef8?rule=fullscreen-1x-auto"
+  ],
+  "imageKind": "esemplare",
+  "effort": "usare",
+  "scout": {
+   "title": "Un T40 con venti cavalli, usato un mese",
+   "why": "Stessa famiglia del tuo riferimento ma nella misura grande, quattro metri. Te lo mostro come una delle proposte più grandi che hai chiesto di lasciare aperte, questa volta in Italia.",
+   "project": "Più spazio e più raggio lungo costa; il venditore include carrellino pieghevole e carrello per il motore.",
+   "doubt": "È la taglia che pensi di usare meno per la logistica, e sul trasporto nulla è verificato. Un insieme dichiarato «acquistato nuovo un mese fa» e già in vendita merita domande su provenienza e documenti.",
+   "author": "ai-sessione",
+   "writtenAt": "2026-11-14T21:40:00.000Z"
+  },
+  "userNote": "",
+  "addedAt": "2026-11-14T21:28:01.844Z",
+  "trailId": "honwave",
+  "kind": "affine",
+  "origin": "allestimento",
+  "status": "attiva",
+  "check": {
+   "at": "2026-11-14T21:27:51.585Z",
+   "by": "server",
+   "page": {
+    "ok": true,
+    "http": 200,
+    "detail": "pagina aperta e dati dell'annuncio letti"
+   },
+   "image": {
+    "ok": true,
+    "http": 206,
+    "detail": "immagine raggiungibile"
+   },
+   "via": "Subito.it"
+  },
+  "checks": [
+   {
+    "at": "2026-11-14T21:27:51.585Z",
+    "status": "attiva"
+   }
+  ],
+  "effortBy": "ai"
+ }
+]
