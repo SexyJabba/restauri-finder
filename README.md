@@ -24,6 +24,8 @@ SCOUT_PASSWORD='scegli-una-frase' node server.js
 
 Sul telefono apri `http://INDIRIZZO-DEL-COMPUTER:4173` (es. `http://192.168.1.20:4173`). Per usarlo fuori casa serve metterlo su un piccolo server o dietro un tunnel con HTTPS: non è incluso.
 
+**App installabile:** quando il sito è servito in HTTPS (o da `localhost`) il browser offre "Installa app" / "Aggiungi a schermata Home": si apre a tutto schermo con la sua icona. Resta un'interfaccia verso il server: i dati non vengono copiati sul telefono e a server spento l'app lo dichiara.
+
 **Note AI personalizzate (facoltative):** la chiave resta sul server, mai nel browser.
 
 ```bash

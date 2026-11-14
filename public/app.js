@@ -19,7 +19,9 @@ function el(tag, attrs, ...kids) {
   return n;
 }
 async function api(path, method = 'GET', body) {
-  const r = await fetch('/api/' + path, { method, headers: body ? { 'content-type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined });
+  let r;
+  try { r = await fetch('/api/' + path, { method, headers: body ? { 'content-type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined }); }
+  catch { throw new Error('il server dello Scout non risponde. L\'app mostra i dati solo quando il server è acceso e raggiungibile.'); }
   if (r.status === 401) { location.reload(); throw new Error('Accesso richiesto'); }
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(j.error || 'Errore ' + r.status);
@@ -425,4 +427,6 @@ async function pageSources() {
       el('div', { class: 'bar' }, el('a', { class: 'btn small', href: '/api/export', download: 'scout-backup.json' }, 'Scarica una copia dell\'archivio')))));
 }
 
+// App installabile: il service worker funziona solo su HTTPS o su localhost.
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(() => {});
 route();

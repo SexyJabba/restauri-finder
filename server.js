@@ -19,7 +19,7 @@ const HOST = process.env.HOST || (PASSWORD ? '0.0.0.0' : '127.0.0.1');
 const PUBLIC = path.join(__dirname, 'public');
 const SECRET = crypto.createHash('sha256').update('scout|' + PASSWORD).digest();
 const token = () => crypto.createHmac('sha256', SECRET).update('sessione').digest('hex');
-const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.json': 'application/json', '.webmanifest': 'application/manifest+json' };
+const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.json': 'application/json', '.webmanifest': 'application/manifest+json', '.png': 'image/png' };
 
 const send = (res, status, body, headers = {}) => {
   const isObj = typeof body === 'object' && !Buffer.isBuffer(body);
@@ -157,11 +157,11 @@ const server = http.createServer(async (req, res) => {
     if (url.pathname === '/login' && req.method === 'POST') {
       const b = await readBody(req);
       const a = Buffer.from(String(b.password || '')), p = Buffer.from(PASSWORD);
-      if (PASSWORD && a.length === p.length && crypto.timingSafeEqual(a, p)) return send(res, 303, '', { location: '/', 'set-cookie': `scout=${token()}; HttpOnly; SameSite=Lax; Path=/; Max-Age=7776000` });
+      if (PASSWORD && a.length === p.length && crypto.timingSafeEqual(a, p)) return send(res, 303, '', { location: '/', 'set-cookie': `scout=${token()}; HttpOnly; SameSite=Lax; Path=/; Max-Age=7776000${req.headers['x-forwarded-proto'] === 'https' ? '; Secure' : ''}` });
       await new Promise((r) => setTimeout(r, 800));
       return send(res, 401, loginPage(true));
     }
-    if (url.pathname === '/style.css' || url.pathname === '/icon.svg') { /* servono anche alla pagina d'accesso */ }
+    if (['/style.css', '/icon.svg', '/manifest.webmanifest', '/icon-192.png', '/icon-512.png', '/icon-512-maskable.png'].includes(url.pathname)) { /* servono anche alla pagina d'accesso */ }
     else if (!authed(req)) return url.pathname.startsWith('/api/') ? send(res, 401, { error: 'Accesso richiesto' }) : send(res, 401, loginPage(false));
     if (url.pathname.startsWith('/api/')) {
       // Le modifiche arrivano solo dalla stessa origine (difesa semplice contro richieste da altri siti).
@@ -171,7 +171,7 @@ const server = http.createServer(async (req, res) => {
     let file = path.normalize(path.join(PUBLIC, url.pathname === '/' ? 'index.html' : url.pathname));
     if (!file.startsWith(PUBLIC) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) file = path.join(PUBLIC, 'index.html');
     res.writeHead(200, { 'content-type': MIME[path.extname(file)] || 'application/octet-stream', 'cache-control': 'no-cache', 'x-content-type-options': 'nosniff', 'referrer-policy': 'no-referrer',
-      'content-security-policy': "default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'" });
+      'content-security-policy': "default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; frame-ancestors 'none'" });
     fs.createReadStream(file).pipe(res);
   } catch (e) {
     const status = e.status || 500;
