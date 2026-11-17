@@ -154,3 +154,142 @@ test('AI non configurata: dichiarata, e nessun testo viene generato al suo posto
   assert.equal(src.auto.enabled, false);
   assert.ok(src.sources.some((s) => s.id === 'ebay' && s.mode === 'manuale' && s.alt));
 });
+
+test('Subito per auto e moto: ogni percorso ha la sua categoria e un filtro sul titolo', () => {
+  const { trails, byId } = require('../lib/trails');
+  for (const t of trails.filter((x) => x.category !== 'gommoni')) {
+    const subs = t.paths.filter((p) => typeof p === 'object' && p.source === 'subito');
+    assert.ok(subs.length > 0, `la pista ${t.id} non ha percorsi Subito`);
+    const cat = t.category === 'auto' ? 'auto' : 'moto-e-scooter';
+    for (const p of subs) {
+      assert.ok(p.path.startsWith(`annunci-italia/vendita/${cat}/?q=`), `${t.id}: categoria sbagliata in ${p.path}`);
+      assert.ok(p.must instanceof RegExp, `${t.id}: manca il filtro sul titolo in ${p.path}`);
+    }
+  }
+  const at = byId['africa-twin'].paths.find((p) => p.source === 'subito');
+  assert.ok(at.must.test('Honda XRV 750 Africa Twin RD07'));
+  assert.ok(!at.must.test('Honda Africa Twin CRF1100L Adventure Sports'));
+  assert.equal(at.yearMax, 2003);
+  const v480 = byId.volvo480.paths.find((p) => p.source === 'subito');
+  assert.ok(v480.must.test('Volvo 480 ES turbo') && !v480.must.test('Volvo 240 GL'));
+});
+
+test('Ruote Classiche: elenco, ripiego sull\'elenco generale riconosciuto, annuncio letto senza recapiti', () => {
+  const { rcParseSearch, rcParseDetail, keyFor } = require('../lib/sources');
+  const card = (id, brand, model, price, anno, km, city) => `<div class="sab-listing-block ">
+    <a href="https://ruoteclassiche.quattroruote.it/vendo-e-compro/annuncio/x-${id}/" class="sab-listing-block-image"><img class="sab-listing-block-image-img-listing" src="https://img.example/${id}/0.jpg" /></a>
+    <div class="sab-listing-block-brand">${brand}</div><a href="#" class="sab-listing-block-model"> ${model}</a>
+    <a href="#" class="sab-listing-block-price">€ ${price}</a>
+    <div class="sab-listing-block-reseller-block-address"> | ${city} (XX) 00100</div>
+    <div class="sab-listing-block-more-info-box-label">anno</div> <div class="sab-listing-block-more-info-box-value">${anno}</div>
+    <div class="sab-listing-block-more-info-box-label">km</div> <div class="sab-listing-block-more-info-box-value">${km}</div></div>`;
+  const page = (cards) => `<span class="sab-total-count-value">${cards.length}</span>` + cards.join('');
+  const ok = rcParseSearch(page([card(110000001, 'ALFA ROMEO', 'Alfetta', '9.800', 1979, '120.000', 'Torino')]), 'f/alfa-romeo/alfetta/');
+  assert.equal(ok.ok, true);
+  assert.deepEqual([ok.items[0].key, ok.items[0].name, ok.items[0].price, ok.items[0].year, ok.items[0].km, ok.items[0].city],
+    ['ruoteclassiche:110000001', 'Alfa Romeo Alfetta', 9800, 1979, 120000, 'Torino']);
+  // Modello senza annunci: il sito mostra l'elenco generale con altre marche → nessun annuncio, non risultati sbagliati.
+  const fb = rcParseSearch(page([card(110000002, 'FIAT', 'Panda', '2.000', 1990, '1', 'Roma'), card(110000003, 'PEUGEOT', '307', '3.000', 2004, '1', 'Bari')]), 'f/volvo/480/');
+  assert.equal(fb.ok, false);
+  assert.equal(fb.reason, 'nessun_annuncio');
+  const detail = `<div class="sab-detail-header-image"><img src="https://img.example/1/0.jpg" alt="" /></div>
+    <div class="sab-detail-header-info-brand">ALFA ROMEO</div><div class="sab-detail-header-info-model">Spider</div>
+    <div class="sab-detail-header-info-price">€ 21.500</div>
+    <div class="sab-detail-header-info-reseller-block-name">Rivenditore</div>
+    <div class="sab-detail-header-info-reseller-block-address"> | Roma (RM) 00144 | 1978 </div>
+    <div class="sab-detail-description-container-text">Ottima meccanica. Chiamare 340 1234567</div>
+    <div class="sab-detail-technical-information-label">Chilometraggio</div> <div class="sab-detail-technical-information-value">49.000 Km</div>`;
+  const l = rcParseDetail(detail, 'https://ruoteclassiche.quattroruote.it/vendo-e-compro/annuncio/alfa-romeo-spider-110490628/');
+  assert.equal(l.key, 'ruoteclassiche:110490628');
+  assert.deepEqual([l.facts.price, l.facts.year, l.facts.km, l.facts.city, l.facts.sellerType, l.images.length], [21500, 1978, 49000, 'Roma', 'Concessionario', 1]);
+  assert.ok(!/1234567/.test(l.sellerText) && /recapito omesso/.test(l.sellerText));
+  assert.equal(keyFor('https://ruoteclassiche.quattroruote.it/vendo-e-compro/annuncio/alfa-romeo-spider-110490628/'), 'ruoteclassiche:110490628');
+});
+
+test('Automobile.it: elenco con anno e km, nuovi/noleggio esclusi, annuncio letto senza recapiti', () => {
+  const { amParseSearch, amParseDetail, keyFor } = require('../lib/sources');
+  const wrap = (pageProps) => `<script id="__NEXT_DATA__" type="application/json">${JSON.stringify({ props: { pageProps } })}</script>`;
+  const item = (id, extra = {}) => ({ id, url: `/torino-alfa-romeo-alfetta/${id}`, title: 'Alfa Romeo Alfetta 2.0', formattedPrice: '€ 9.800', location: 'Torino (TO)', totalNumberOfPictures: 5,
+    details: { registration: 'Maggio 1979', formattedKm: '120.000 km', channelOrChannelUsed: 'Epoca' }, ...extra });
+  const r = amParseSearch(wrap({ apiResults: { result: { resultList: [item(170000001), item(170000002, { details: { channelOrChannelUsed: 'Nuovo' } }), item(170000003, { rental: true })] } } }));
+  assert.equal(r.ok, true);
+  assert.deepEqual([r.items[0].key, r.items[0].price, r.items[0].year, r.items[0].km, r.items[0].city, r.items[0].offerType],
+    ['automobile:170000001', 9800, 1979, 120000, 'Torino', 'U']);
+  assert.deepEqual(r.items.slice(1).map((x) => x.offerType), ['N', 'N']);
+  assert.equal(amParseSearch('<html>nessun dato</html>').ok, false);
+  const l = amParseDetail(wrap({
+    result: { id: 180590920, title: 'Alfa Romeo Alfetta GT', url: '/udine-alfa-romeo-alfetta-gt/180590920', formattedPrice: '€ 17.500', location: 'Udine (UD)', sellerType: 'PRIVATE',
+      description: 'Restauro conservativo. Tel. 333 1234567', details: { category: 'cars' }, vipPictures: [{ imgBig: 'https://img.example/1.jpeg' }] },
+    vehicleInformation: { basicInfo: [{ title: 'Immatricolazione', values: ['Giugno 1975'] }, { title: 'Chilometri', values: ['24.922'] }, { title: 'Potenza', values: ['90 kW (122 CV)'] }] },
+  }), 'https://www.automobile.it/udine-alfa-romeo-alfetta-gt/180590920');
+  assert.deepEqual([l.key, l.facts.price, l.facts.year, l.facts.km, l.facts.power, l.facts.city, l.facts.sellerType, l.images.length],
+    ['automobile:180590920', 17500, 1975, 24922, '122 CV', 'Udine', 'Privato', 1]);
+  assert.ok(!/1234567/.test(l.sellerText));
+  assert.equal(keyFor('https://www.automobile.it/udine-alfa-romeo-alfetta-gt/180590920'), 'automobile:180590920');
+});
+
+test('stesso mezzo pubblicato su due siti con titoli diversi: riconosciuto come doppione', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'scout-dup-'));
+  process.env.SCOUT_DATA_DIR = dir;
+  const store = require('../lib/store');
+  const scout = require('../lib/scout');
+  const d = store.load();
+  const facts = { price: 40000, city: 'Lurate Caccivio', year: 1976, km: 50737 };
+  d.cards.s1 = { id: 's1', key: 'ruoteclassiche:1', fingerprint: null, name: 'Alfa Romeo Alfetta GT/GTV', facts };
+  const twin = { key: 'automobile:2', name: 'Alfa Romeo Alfetta GT/GTV 2.0 - Targa CO 48', facts: { ...facts } };
+  assert.equal(scout.findDuplicate(twin)?.card.id, 's1');
+  // Basta un dato diverso (km) perché non sia considerato lo stesso mezzo; senza km il controllo largo non scatta.
+  assert.equal(scout.findDuplicate({ ...twin, facts: { ...facts, km: 50738 } }), null);
+  assert.equal(scout.findDuplicate({ ...twin, facts: { ...facts, km: null } }), null);
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test('costo di partenza: IPT per kW, ultratrentennali ridotti, moto giovani dichiarate incomplete', () => {
+  const { startCost, kwOf } = require('../lib/costs');
+  assert.deepEqual([kwOf('90 kW (122 CV)'), kwOf('45 CV'), kwOf(null)], [90, 33, null]);
+  const y = { year: 2026 };
+  // Auto del 2000 da 90 kW, maggiorazione nota 20%: IPT 3,5119 × 90 × 1,2 = 379 €.
+  const a = startCost({ category: 'auto', facts: { price: 1500, year: 2000, power: '90 kW' } }, { ...y, iptPct: 20 });
+  const ipt = a.lines.find((l) => l.label === 'Passaggio: IPT');
+  assert.deepEqual([ipt.min, ipt.max], [379, 379]);
+  assert.equal(a.complete, true);
+  assert.equal(a.min, 1500 + 69 + 379);
+  // Panda del 1986 (ultratrentennale): minimo con IPT ridotta a 51,65 €, massimo con IPT piena +30%.
+  const p = startCost({ category: 'auto', facts: { price: 1200, year: 1986, power: '25 kW' } }, y);
+  const pi = p.lines.find((l) => l.label === 'Passaggio: IPT');
+  assert.deepEqual([pi.min, pi.max], [52, 196]);
+  assert.ok(p.missing.some((m) => /esente/.test(m)));
+  // Moto del 2005: IPT non calcolata, stima incompleta; moto del 1990: IPT ridotta 25,82 €.
+  assert.equal(startCost({ category: 'moto', facts: { price: 900, year: 2005 } }, y).complete, false);
+  const m = startCost({ category: 'moto', facts: { price: 900, year: 1990 } }, y);
+  assert.equal(m.complete, true);
+  assert.equal(m.lines.find((l) => l.label === 'Passaggio: IPT').max, 26);
+  // Senza prezzo o per i gommoni nessuna stima.
+  assert.equal(startCost({ category: 'auto', facts: { year: 1990 } }, y), null);
+  assert.equal(startCost({ category: 'gommoni', facts: { price: 500 } }, y), null);
+});
+
+test('ricerca economica: tetto di prezzo su AutoScout24 e sezione ordinata per costo di partenza', () => {
+  const dir2 = fs.mkdtempSync(path.join(os.tmpdir(), 'scout-budget-'));
+  process.env.SCOUT_DATA_DIR = dir2;
+  for (const k of Object.keys(require.cache)) if (/lib[\\/](store|scout)\.js$/.test(k)) delete require.cache[k];
+  const store = require('../lib/store');
+  const scout = require('../lib/scout');
+  assert.equal(scout.withPriceCap('lst/fiat/panda?fregto=1990', 2431), 'lst/fiat/panda?fregto=1990&priceto=2431&sort=price&desc=0');
+  assert.equal(scout.withPriceCap('lst/honda/transalp', 1000), 'lst/honda/transalp?priceto=1000&sort=price&desc=0');
+  assert.equal(scout.withPriceCap('lst/x?priceto=5&sort=age', 900), 'lst/x?priceto=900&sort=price&desc=0');
+  const d = store.load();
+  const card = (id, category, price, year, extra = {}) => ({ id, key: 'k:' + id, category, status: 'attiva', name: id, facts: { price, year, power: '40 kW' }, ...extra });
+  d.cards.a = card('a', 'auto', 2000, 1985);
+  d.cards.b = card('b', 'auto', 800, 1995);
+  d.cards.c = card('c', 'auto', 2400, 2005);        // oltre soglia col passaggio
+  d.cards.g = card('g', 'gommoni', 300, 2000);      // i gommoni non hanno passaggio PRA
+  d.cards.z = card('z', 'moto', 500, 2010);         // moto giovane: stima incompleta, decide il minimo
+  d.cards.r = card('r', 'auto', 700, 1980);         // già valutata: esce dalla lista
+  d.reactions.push({ id: 'x', cardId: 'r', type: 'conserva', at: new Date().toISOString() });
+  const r = scout.budgetFeed({ maxStart: 2500 });
+  assert.deepEqual(r.items.map((x) => x.id), ['z', 'b', 'a']);
+  assert.equal(r.reacted, 1);
+  assert.ok(r.items[0].startCost);
+  fs.rmSync(dir2, { recursive: true, force: true });
+});

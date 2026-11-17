@@ -49,13 +49,13 @@ function scoutTag(c) {
 }
 const icons = {
   scoperte: 'M12 3l2.6 5.6L20 9.5l-4 4 1 5.9L12 16.6 7 19.4l1-5.9-4-4 5.4-.9z',
-  idee: 'M6 3h12v18l-6-4-6 4z', profilo: 'M12 12a4 4 0 100-8 4 4 0 000 8zm-8 9a8 8 0 0116 0',
+  idee: 'M6 3h12v18l-6-4-6 4z', economici: 'M3 12V4h8l10 10-8 8zM7.5 8a.5.5 0 100-1 .5.5 0 000 1', profilo: 'M12 12a4 4 0 100-8 4 4 0 000 8zm-8 9a8 8 0 0116 0',
   approfondimenti: 'M5 3h10l4 4v14H5zM9 12h6M9 16h6M9 8h3', fonti: 'M4 12a8 8 0 1016 0 8 8 0 00-16 0zm0 0h16M12 4c3 3 3 13 0 16M12 4c-3 3-3 13 0 16',
 };
 const icon = (name) => { const s = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); s.setAttribute('viewBox', '0 0 24 24'); s.setAttribute('fill', 'none'); s.setAttribute('stroke', 'currentColor'); s.setAttribute('stroke-width', '1.7'); s.setAttribute('stroke-linecap', 'round'); s.setAttribute('stroke-linejoin', 'round'); s.setAttribute('aria-hidden', 'true'); const p = document.createElementNS(s.namespaceURI, 'path'); p.setAttribute('d', icons[name]); s.append(p); return s; };
 
 /* ---------- navigazione ---------- */
-const NAV = [['scoperte', 'Scoperte'], ['idee', 'Idee conservate'], ['profilo', 'Profilo e gusti'], ['approfondimenti', 'Approfondimenti'], ['fonti', 'Fonti']];
+const NAV = [['scoperte', 'Scoperte'], ['economici', 'Economici'], ['idee', 'Idee conservate'], ['profilo', 'Profilo e gusti'], ['approfondimenti', 'Approfondimenti'], ['fonti', 'Fonti']];
 function renderNav(cur) {
   const nav = document.getElementById('nav');
   nav.replaceChildren(...NAV.map(([id, label]) => el('a', { href: '#/' + id, 'aria-current': cur === id ? 'page' : null }, icon(id), el('span', {}, label.replace(' e gusti', '').replace(' conservate', '')))));
@@ -64,7 +64,7 @@ async function refreshState() { S.state = await api('state'); return S.state; }
 
 async function route() {
   const [, page = 'scoperte', arg] = location.hash.split('/');
-  const pages = { scoperte: pageFeed, idee: pageIdeas, scheda: pageCard, profilo: pageProfile, approfondimenti: pageDossiers, fonti: pageSources, aggiungi: pageAdd };
+  const pages = { scoperte: pageFeed, economici: pageBudget, idee: pageIdeas, scheda: pageCard, profilo: pageProfile, approfondimenti: pageDossiers, fonti: pageSources, aggiungi: pageAdd };
   renderNav(page === 'scheda' ? 'idee' : page === 'aggiungi' ? 'fonti' : page);
   try { await refreshState(); await (pages[page] || pageFeed)(arg && decodeURIComponent(arg)); }
   catch (e) { $app.replaceChildren(el('p', { class: 'empty' }, 'Qualcosa non ha funzionato: ' + e.message)); }
@@ -153,6 +153,7 @@ function fullCard(c, opts = {}) {
 
   const seller = c.sellerText ? el('details', { class: 'sellerbox' }, el('summary', {}, 'Leggi cosa dichiara il venditore', c.facts?.language ? ` (testo originale in ${c.facts.language})` : ''), el('blockquote', { class: 'seller' }, c.sellerText)) : el('p', { class: 'hint' }, 'Nessuna descrizione del venditore letta.');
   body.append(block('Dati dell\'annuncio', TAGS.src(), facts(c)));
+  if (c.startCost) body.append(costBlock(c.startCost));
   body.append(block('Descrizione', TAGS.seller(), seller));
 
   const sel = el('select', { 'aria-label': 'Impegno indicativo', onchange: guard(async () => { rerender(await api('cards/' + c.id, 'PATCH', { effort: sel.value })); toast('Impegno aggiornato da te'); }) },
@@ -212,7 +213,7 @@ async function pageFeed() {
   const price = el('input', { type: 'number', inputmode: 'numeric', min: '0', step: '500', placeholder: 'nessun limite', value: f.maxPrice, onchange: () => { f.maxPrice = price.value; pageFeed(); } });
   const km = el('input', { type: 'number', inputmode: 'numeric', min: '0', step: '50', placeholder: 'nessun limite', value: f.maxKm, disabled: !S.state.settings.base, onchange: () => { f.maxKm = km.value; pageFeed(); } });
   const searchBox = el('div', {});
-  const searchBtn = el('button', { class: 'btn primary', onclick: guard(() => runSearch(searchBox, searchBtn, f.cat)) }, f.cat ? 'Cerca nuove proposte: ' + CAT[f.cat].toLowerCase() : 'Cerca nuove proposte');
+  const searchBtn = el('button', { class: 'btn primary', onclick: guard(() => runSearch(searchBox, searchBtn, { category: f.cat || null }, pageFeed)) }, f.cat ? 'Cerca nuove proposte: ' + CAT[f.cat].toLowerCase() : 'Cerca nuove proposte');
   $app.replaceChildren(el('div', { class: 'narrow' },
     el('div', { class: 'filters' },
       el('div', { class: 'chips', role: 'group', 'aria-label': 'Categoria' }, chip('Tutto', ''), chip('Auto', 'auto'), chip('Moto', 'moto'), chip('Gommoni', 'gommoni'), chip('Altro', 'altro')), effort,
@@ -225,9 +226,9 @@ async function pageFeed() {
       : el('p', { class: 'empty' }, data.total ? 'Nessuna scheda con questi filtri.' : 'Hai sfogliato tutto.', el('small', {}, 'Le schede a cui hai reagito escono dal flusso e restano in Idee conservate. "Cerca nuove proposte" interroga le fonti collegate adesso; non c\'è una ricerca continua in sottofondo', S.state.settings.autoSearch.enabled ? ' oltre a quella periodica che hai attivato.' : '.'))));
 }
 
-async function runSearch(box, btn, category) {
+async function runSearch(box, btn, body, after) {
   btn.disabled = true;
-  await api('search/run', 'POST', { category: category || null });
+  await api('search/run', 'POST', body);
   const draw = (j) => box.replaceChildren(el('div', { class: 'progress' },
     el('strong', {}, j.done ? 'Ricerca terminata' : 'Ricerca in corso su fonti reali…'), j.current ? el('div', {}, j.current) : null,
     el('div', {}, `${j.stats.trovati} annunci letti · ${j.stats.giaVisti} già visti · ${j.stats.esclusi} esclusi dai criteri della pista · ${j.stats.nonVerificati} scartati perché pagina o foto non verificabili · ${j.stats.pubblicati} nuove schede`),
@@ -235,9 +236,46 @@ async function runSearch(box, btn, category) {
   for (;;) {
     const j = await api('search/status');
     draw(j);
-    if (j.done) { btn.disabled = false; if (j.stats.pubblicati) { toast(j.stats.pubblicati + ' nuove schede verificate'); await refreshState(); await pageFeed(); document.querySelector('.progress')?.scrollIntoView({ block: 'nearest' }); $app.querySelector('.narrow > div:nth-of-type(3)')?.replaceChildren(el('div', { class: 'progress' }, el('strong', {}, 'Ultima ricerca: '), `${j.stats.pubblicati} nuove schede verificate, ${j.stats.giaVisti} già viste, ${j.stats.nonVerificati} scartate perché non verificabili.`)); } break; }
+    if (j.done) { btn.disabled = false; if (j.stats.pubblicati) { toast(j.stats.pubblicati + ' nuove schede verificate'); await refreshState(); await after(); document.querySelector('.progress')?.scrollIntoView({ block: 'nearest' }); $app.querySelector('.narrow > div:nth-of-type(3)')?.replaceChildren(el('div', { class: 'progress' }, el('strong', {}, 'Ultima ricerca: '), `${j.stats.pubblicati} nuove schede verificate, ${j.stats.giaVisti} già viste, ${j.stats.nonVerificati} scartate perché non verificabili.`)); } break; }
     await new Promise((r) => setTimeout(r, 1500));
   }
+}
+
+/* ---------- Costo di partenza (stima) ---------- */
+function costBlock(sc) {
+  const range = (a, b) => (a === b ? eur(a) : `${eur(a)} – ${eur(b)}`);
+  return el('section', { class: 'block' },
+    el('h3', {}, 'Costo di partenza', tag('ai', 'Stima dello scout', 'Calcolata con le tariffe pubbliche di passaggio e revisione: non è un preventivo')),
+    el('div', { class: 'cost' },
+      el('div', { class: 'cost-total' }, el('span', {}, 'Per portarlo a casa'), el('strong', {}, range(sc.min, sc.max)), sc.complete ? null : el('small', {}, 'stima incompleta: manca una voce, vedi sotto')),
+      el('table', { class: 'cost-lines' }, el('tbody', {}, sc.lines.map((l) => el('tr', {}, el('th', { scope: 'row' }, l.label, el('small', {}, l.note)), el('td', {}, range(l.min, l.max)))))),
+      el('ul', { class: 'cost-missing' }, sc.missing.map((m) => el('li', {}, m))),
+      el('p', { class: 'hint' }, 'Tariffe: IPT D.M. 435/1998 e riduzioni per gli ultratrentennali (art. 63 L. 342/2000), voci fisse PRA e Motorizzazione. Prima di comprare verifica con l\'ACI: ', el('a', { href: 'https://aci.gov.it/pratica-auto/passaggio-di-proprieta-informazioni-utili/', target: '_blank', rel: 'noopener noreferrer' }, 'passaggio di proprietà ↗'), ' · ', el('a', { href: 'https://aci.gov.it/servizio/calcola-online-il-bollo-ed-il-superbollo/', target: '_blank', rel: 'noopener noreferrer' }, 'calcolo del bollo ↗'), '.')));
+}
+
+/* ---------- Economici ---------- */
+async function pageBudget() {
+  const cat = S.budgetCat || '';
+  const data = await api('economici' + (cat ? '?cat=' + cat : ''));
+  const max = el('input', { type: 'number', inputmode: 'numeric', min: '300', step: '100', value: data.maxStart, 'aria-label': 'Costo di partenza massimo in euro' });
+  const pct = el('input', { type: 'number', inputmode: 'numeric', min: '0', max: '30', step: '1', placeholder: 'non so', value: data.iptPct ?? '', 'aria-label': 'Maggiorazione IPT della tua provincia in percentuale' });
+  const save = guard(async () => { await api('settings', 'PATCH', { budget: { maxStart: +max.value, iptPct: pct.value === '' ? null : +pct.value } }); toast('Soglia salvata'); pageBudget(); });
+  const chip = (label, val) => el('button', { class: 'chip', 'aria-pressed': String(cat === val), onclick: () => { S.budgetCat = val; pageBudget(); } }, label);
+  const searchBox = el('div', {});
+  const searchBtn = el('button', { class: 'btn primary', onclick: guard(() => runSearch(searchBox, searchBtn, { budget: true }, pageBudget)) }, 'Cerca proposte economiche');
+  $app.replaceChildren(el('div', { class: 'narrow' },
+    el('h1', { class: 'page-title' }, 'Progetti economici'),
+    el('p', { class: 'lede' }, 'Auto e moto che puoi portare a casa spendendo poco: conta il prezzo richiesto più il passaggio di proprietà e una possibile revisione. Ordinate dal costo di partenza più basso.'),
+    el('div', { class: 'filters' },
+      el('div', { class: 'chips', role: 'group', 'aria-label': 'Categoria' }, chip('Auto e moto', ''), chip('Auto', 'auto'), chip('Moto', 'moto')),
+      el('div', { class: 'budget-set' }, el('label', {}, 'Costo di partenza fino a €', max), el('label', {}, 'Maggiorazione IPT provinciale %', pct)),
+      el('div', { class: 'bar' }, el('button', { class: 'btn small', onclick: save }, 'Salva la soglia')),
+      el('p', { class: 'hint' }, 'La maggiorazione provinciale va da 0 a 30%: se non la conosci la stima usa tutta la forbice. Assicurazione e bollo non sono stimati. I mezzi oltre i 30 anni pagano un passaggio ridotto e sono esenti dal bollo: per questo tendono a stare in cima.')),
+    el('div', { class: 'bar' }, searchBtn, el('span', { class: 'hint' }, `${data.items.length} da sfogliare` + (data.reacted ? ` · ${data.reacted} già valutate, in Idee conservate` : ''))),
+    el('p', { class: 'hint' }, `La ricerca economica interroga le piste auto e moto chiedendo annunci fino a ${eur(Math.max(0, data.maxStart - 69))} di prezzo; gli annunci più cari non vengono segnati come visti e restano disponibili per la ricerca normale.`),
+    searchBox,
+    data.items.length ? el('div', { class: 'feed' }, data.items.map((c) => fullCard(c)))
+      : el('p', { class: 'empty' }, 'Nessuna scheda entro questa soglia.', el('small', {}, 'Prova "Cerca proposte economiche" o alza la soglia. Servono il prezzo nell\'annuncio e una scheda verificata.'))));
 }
 
 /* ---------- Idee conservate ---------- */
