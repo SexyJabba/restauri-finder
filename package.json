@@ -1,0 +1,9 @@
+{
+  "name": "scout-personale",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Scout personale di auto, moto e gommoni: quaderno privato di scoperte da annunci reali",
+  "scripts": { "start": "node server.js", "test": "node --test test/*.test.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "@anthropic-ai/sdk": "^1.8.0" }
+}

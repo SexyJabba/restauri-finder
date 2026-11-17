@@ -1,0 +1,35 @@
+[
+  {"category": "generale", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Non sto cercando di comprare adesso: voglio esplorare, affinare i gusti e incontrare occasioni che non avrei considerato."},
+  {"category": "generale", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Mi piacciono mezzi con carattere, una meccanica interessante e un progetto ingegneristico riuscito. Conta soprattutto il piacere di usarli; mi piace anche restaurare."},
+  {"category": "generale", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Ho già comprato e sistemato un Mercedes Vito W639 115 CDI: può fare da piccolo camper e ha barre sul tetto."},
+  {"category": "generale", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Nessun budget fisso: spesa e durata dipendono da quanto il progetto mi interessa. Gli esempi (gommone piccolo nell'ordine di 5–6 mila euro complessivi; auto molto interessante fino a circa 25 mila in tre o quattro anni) sono orientativi: non sono disponibilità da spendere né obiettivi."},
+
+  {"category": "capacita", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Posso affrontare carrozzeria e restauro degli interni, smontaggio, assemblaggio e molti lavori meccanici."},
+  {"category": "capacita", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Su mezzi semplici e vecchi posso fare quasi tutto: per esempio anche la distribuzione di una Panda 45."},
+  {"category": "capacita", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Posso integrare gli attrezzi necessari, conteggiandoli nel progetto."},
+  {"category": "capacita", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Per lavori interni al motore, alimentazione, turbo e interventi che richiedono strumenti o competenze specialistiche va valutato il ricorso a professionisti. Le capacità dipendono dal mezzo: non sono una competenza universale."},
+
+  {"category": "auto", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Alfa Romeo Alfetta GT/GTV: forte affinità."},
+  {"category": "auto", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Volvo 480: forte affinità per la particolarità e quel carattere fuori dal comune."},
+  {"category": "auto", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "MG B: meno coinvolgente delle precedenti. Questo non esclude tutte le spider."},
+  {"category": "auto", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Auto belle da guidare, con motore e abitacolo piacevoli, adatte a viaggi su strade secondarie."},
+  {"category": "auto", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Non solo auto dichiarate \"da restaurare\": mi interessano anche basi sane da conservare e migliorare."},
+  {"category": "auto", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Una BMW cabrio anni Novanta con problemi meccanici era un esempio di occasione da interpretare, non un modello obbligatorio da cercare."},
+  {"category": "auto", "kind": "ipotesi", "origin": "ipotesi dello scout", "text": "Dell'Alfetta potrebbe attrarti anche lo schema transaxle, non solo la linea: per questo ti mostro Giulietta (116), 75 e, come sorpresa, Porsche 924/944."},
+  {"category": "auto", "kind": "ipotesi", "origin": "ipotesi dello scout", "text": "Della Volvo 480 potrebbe contare l'essere \"fuori dal coro\" più della marca: provo con Saab classiche, Citroën e coupé insolite."},
+  {"category": "auto", "kind": "incerta", "origin": "ipotesi dello scout", "text": "Spider: non è chiaro cosa non ha funzionato con la MG B (carattere del motore? posizione di guida? epoca?). Da capire con qualche spider diversa."},
+  {"category": "auto", "kind": "incerta", "origin": "ipotesi dello scout", "text": "Quanto peso dai all'originalità rispetto a un mezzo già modificato o migliorato da altri?"},
+
+  {"category": "moto", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Mi attrae sia una café racer tranquilla per giri fuori porta, sia una moto da viaggio con borse per uscite di tre o quattro giorni e qualche viaggio più lungo."},
+  {"category": "moto", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "L'Africa Twin è un riferimento di immaginario e d'uso, non una scelta né un vincolo di modello e prezzo."},
+  {"category": "moto", "kind": "incerta", "origin": "dal tuo brief iniziale", "text": "Categoria non ancora affinata con una selezione concreta: le prime reazioni servono a tracciare la mappa."},
+  {"category": "moto", "kind": "ipotesi", "origin": "ipotesi dello scout", "text": "Una sola moto potrebbe coprire entrambi gli usi (per esempio una boxer BMW o una Guzzi): ipotesi da mettere alla prova."},
+
+  {"category": "gommoni", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Immagino weekend al mare con pernottamento nel furgone, esplorazione della costa e tempo al sole sul gommone."},
+  {"category": "gommoni", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Honwave T32 IE3: riferimento apprezzato."},
+  {"category": "gommoni", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Tender da circa 2,5 metri o meno sono troppo piccoli. Un Suzumar 230 non è risultato adatto come dimensione."},
+  {"category": "gommoni", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Direzione principale: un compatto con spazio sufficiente a bordo. Mi interessano anche smontabili da 4–4,75 metri, ma penso che li userei meno per la maggiore logistica."},
+  {"category": "gommoni", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Il Lauro 470 visto in prova non mi piaceva come esemplare: non è un rifiuto dell'intera categoria."},
+  {"category": "gommoni", "kind": "esplicita", "origin": "dal tuo brief iniziale", "text": "Non presumere che un mezzo sia trasportabile sul tetto del Vito: pesi, dimensioni, barre e modalità di carico vanno verificati separatamente."},
+  {"category": "gommoni", "kind": "incerta", "origin": "ipotesi dello scout", "text": "Qual è la misura minima che senti comoda? Tra 2,7 e 3,8 metri c'è molta differenza di spazio e di logistica."}
+]
