@@ -67,6 +67,7 @@ async function api(req, res, url) {
       counts: { feed: scout.feed({}).total, conservate: col('conservate'), incuriosito: col('incuriosito'), archiviate: col('archiviate'), nonverificate: col('nonverificate'), scartate: col('scartate'), dossiers: Object.keys(d.dossiers).length } });
   }
   if (seg[0] === 'feed' && m === 'GET') return send(res, 200, scout.feed(q));
+  if (seg[0] === 'economici' && m === 'GET') return send(res, 200, scout.budgetFeed(q));
   if (seg[0] === 'cards') {
     if (!seg[1] && m === 'GET') return send(res, 200, { items: scout.collection(q.view) });
     if (!seg[1] && m === 'POST') return send(res, 201, scout.createManual(body));
@@ -94,7 +95,7 @@ async function api(req, res, url) {
   }
   if (seg[0] === 'extract' && m === 'POST') return send(res, 200, await scout.extract(String(body.url || '').trim()));
   if (seg[0] === 'search') {
-    if (seg[1] === 'run' && m === 'POST') return send(res, 202, scout.startSearch({ category: body.category || null, trailIds: body.trailIds, trigger: 'manuale' }));
+    if (seg[1] === 'run' && m === 'POST') return send(res, 202, scout.startSearch({ category: body.category || null, trailIds: body.trailIds, budget: !!body.budget, trigger: body.budget ? 'economici' : 'manuale' }));
     if (seg[1] === 'status') return send(res, 200, scout.searchStatus() || { done: true, idle: true });
   }
   if (seg[0] === 'tastes') {
@@ -143,6 +144,11 @@ async function api(req, res, url) {
     if (body.base === null) d.settings.base = null;
     else if (body.base && Number.isFinite(+body.base.lat) && Number.isFinite(+body.base.lon)) d.settings.base = { label: String(body.base.label || 'Punto di partenza').slice(0, 80), lat: +body.base.lat, lon: +body.base.lon };
     if (body.autoSearch) { d.settings.autoSearch = { enabled: !!body.autoSearch.enabled, hours: Math.max(6, Math.min(168, Number(body.autoSearch.hours) || 24)) }; scout.scheduleAuto(); }
+    if (body.budget) {
+      const max = Math.round(Number(body.budget.maxStart));
+      const pct = body.budget.iptPct === null || body.budget.iptPct === '' ? null : Number(body.budget.iptPct);
+      d.settings.budget = { maxStart: Number.isFinite(max) ? Math.max(300, Math.min(50000, max)) : 2500, iptPct: pct == null || !Number.isFinite(pct) ? null : Math.max(0, Math.min(30, pct)) };
+    }
     if (body.surpriseBias != null) d.settings.surpriseBias = Math.max(0, Math.min(3, +body.surpriseBias || 0));
     store.save();
     return send(res, 200, { settings: d.settings, auto: scout.autoInfo() });

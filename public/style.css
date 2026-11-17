@@ -174,3 +174,18 @@ body.login input { width: 100%; border: 1px solid var(--line); border-radius: 8p
 body.login button { background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 10px; padding: 11px; font-weight: 600; }
 body.login .err { color: var(--warn); margin: 0; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+/* Costo di partenza (stima) */
+.cost { padding: 12px; background: var(--soft); border-radius: 10px; }
+.cost-total { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-bottom: 8px; }
+.cost-total span { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.cost-total strong { font-size: 1.25rem; }
+.cost-total small { color: var(--muted); }
+.cost-lines { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.cost-lines th { text-align: left; font-weight: 600; padding: 6px 8px 6px 0; border-top: 1px solid var(--line); vertical-align: top; }
+.cost-lines th small { display: block; font-weight: 400; color: var(--muted); }
+.cost-lines td { text-align: right; white-space: nowrap; padding: 6px 0; border-top: 1px solid var(--line); vertical-align: top; }
+.cost-missing { margin: 8px 0; padding-left: 18px; font-size: .85rem; color: var(--muted); }
+.budget-set { width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.budget-set label { font-size: .85rem; color: var(--muted); display: flex; flex-direction: column; gap: 4px; }
+.budget-set input { width: 100%; }
+.filters > .bar, .filters > .hint { width: 100%; margin: 0; }
